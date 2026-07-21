@@ -1,0 +1,93 @@
+[     705ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://financial-vn.pstatic.net/client-chart/legacy-pc/live/20260520-0c1a0b2/css/chartiq.css:0
+[     719ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://financial-vn.pstatic.net/client-chart/legacy-pc/live/20260520-0c1a0b2/js/thirdparty/html2canvas.min.js:0
+[     830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/finance_header.css:0
+[     830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock.css:0
+[     830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/common.css:0
+[     830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/layout.css:0
+[     830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/main.css:0
+[     830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock2.css:0
+[     835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock3.css:0
+[     837ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/world.css:0
+[     837ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/community.css:0
+[     838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/jindo.min.ns.1.5.3.euckr.js:0
+[     838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/release/common.js:0
+[     838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/jindoComponent/jindo.Component.1.0.3.js:0
+[     839ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/nhn.autocomplete.stock.js:0
+[     845ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/blank.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/chart3/day/KOSPI.png?sidcode=1784618105547:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/chart3/day90/KOSPI.png?sidcode=1784618105547:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/chart3/day365/KOSPI.png?sidcode=1784618105547:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/chart3/day1095/KOSPI.png?sidcode=1784618105547:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/rtlt_best_keyword.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/ico_n01.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images/images4/ico_up.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/ico_n02.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/ico_n03.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images/images4/ico_down.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/ico_n04.gif:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static.gn/templates/gnb_utf8.nhn?20260721:0
+[     862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/recent_code.js:0
+[     868ms] ReferenceError: jindo is not defined
+    at https://finance.naver.com/sise/sise_index.naver?code=KOSPI:432:13
+    at https://finance.naver.com/sise/sise_index.naver?code=KOSPI:435:11
+[     869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/ico_n05.gif:0
+[     869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/rtlt_best_news.gif:0
+[     869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/nfinance/img/logo_financial.png:0
+[     869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/nfinance/2022/footer_close.png:0
+[     869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:0
+[     874ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://financial-vn.pstatic.net/client-chart/legacy-pc/live/20260520-0c1a0b2/js/thirdparty/html2canvas.min.js:0
+[     893ms] ReferenceError: jindo is not defined
+    at https://finance.naver.com/sise/sise_index.naver?code=KOSPI:1207:2
+[     893ms] ReferenceError: jindo is not defined
+    at https://finance.naver.com/sise/sise_index.naver?code=KOSPI:1351:1
+[     881ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/blank.gif:0
+[     893ms] ReferenceError: jindo is not defined
+    at HTMLImageElement.onerror (https://finance.naver.com/sise/sise_index.naver?code=KOSPI:707:284)
+[     882ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images/images4/ico_up.gif:0
+[     894ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://financial-vn.pstatic.net/client-chart/legacy-pc/live/20260520-0c1a0b2/js/chartiq.js:0
+[     942ms] ReferenceError: jindo is not defined
+    at https://finance.naver.com/sise/sise_index.naver?code=KOSPI:1369:3
+[    1380ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock.css:0
+[    1380ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/common.css:0
+[    1381ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/layout.css:0
+[    1382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/main.css:0
+[    1382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock2.css:0
+[    1382ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock3.css:0
+[    1386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/world.css:0
+[    1387ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock.css:0
+[    1389ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/common.css:0
+[    1389ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/layout.css:0
+[    1389ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/main.css:0
+[    1389ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock2.css:0
+[    1389ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock3.css:0
+[    1391ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/world.css:0
+[    1394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/recent_code.js:0
+[    1394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/jindo.min.ns.1.5.3.euckr.js:0
+[    1396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/ntm.js:0
+[    1396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/nLog.js:0
+[    1396ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/nfinance/img/tab_r_mstrock01_on_v2.gif:0
+[    1397ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images5/tab_r_mstrock02.gif:0
+[    1398ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images/images4/ico_up.gif:0
+[    1398ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images/images4/ico_down.gif:0
+[    1401ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/n/cmn/bu_pgarR.gif:0
+[    1401ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/n/cmn/bu_pgarRR.gif:0
+[    1570ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock.css:0
+[    1573ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/common.css:0
+[    1574ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/layout.css:0
+[    1575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/main.css:0
+[    1575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock2.css:0
+[    1575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/newstock3.css:0
+[    1578ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/css/world.css:0
+[    1579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/jindo.min.ns.1.5.3.euckr.js:0
+[    1579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/ntm.js:0
+[    1579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/static.pc/20260709231055/js/nLog.js:0
+[    1580ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/images/images4/ico_up.gif:0
+[    1580ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/n/cmn/bu_pgarR.gif:0
+[    1584ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/static/n/cmn/bu_pgarRR.gif:0
+[    1587ms] ReferenceError: getGNB is not defined
+    at onload (https://finance.naver.com/sise/sise_index.naver?code=KOSPI:225:26)
+[    1593ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/favi/favicon.ico:0
+[    1607ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/favi/favicon-32x32.png:0
+[    1644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/favi/favicon-16x16.png:0
+[    1652ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/favi/favicon-96x96.png:0
+[    1670ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ssl.pstatic.net/imgstock/favi/favicon-192x192.png:0

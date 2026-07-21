@@ -1,0 +1,736 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - link "메인 메뉴로 바로가기" [ref=f5e3] [cursor=pointer]:
+      - /url: "#menu"
+    - link "본문으로 바로가기" [ref=f5e4] [cursor=pointer]:
+      - /url: "#start"
+  - generic [ref=f5e5]:
+    - generic [ref=f5e7]:
+      - heading [level=1] [ref=f5e9]:
+        - link "네이버" [ref=f5e10] [cursor=pointer]:
+          - /url: https://www.naver.com/
+        - link "페이" [ref=f5e13] [cursor=pointer]:
+          - /url: https://new-m.pay.naver.com/
+        - link "증권" [ref=f5e16] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f5e22]:
+        - text: 증권 종목명·지수명 검색
+        - textbox "증권 종목명·지수명 검색" [ref=f5e23]:
+          - /placeholder: 종목명·지수명 입력
+        - button "검색" [ref=f5e24]
+        - generic [ref=f5e28]: 자동완성
+    - generic [ref=f5e31]:
+      - list [ref=f5e32]:
+        - listitem [ref=f5e33]:
+          - link "증권 홈" [ref=f5e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f5e35]:
+          - link "국내증시선택됨" [ref=f5e36] [cursor=pointer]:
+            - /url: /sise/
+        - listitem [ref=f5e37]:
+          - link "해외증시" [ref=f5e38] [cursor=pointer]:
+            - /url: /world/
+        - listitem [ref=f5e39]:
+          - link "시장지표" [ref=f5e40] [cursor=pointer]:
+            - /url: /marketindex/
+        - listitem [ref=f5e41]:
+          - link "리서치" [ref=f5e42] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f5e43]:
+          - link "뉴스" [ref=f5e44] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f5e45]:
+          - link "MY" [ref=f5e46] [cursor=pointer]:
+            - /url: /mystock/
+      - generic [ref=f5e47]:
+        - link "새로운 증권 보기 NEW" [ref=f5e48] [cursor=pointer]:
+          - /url: https://stock.naver.com
+          - text: 새로운 증권 보기
+          - generic [ref=f5e49]: NEW
+        - generic [ref=f5e50]: 더 편리해진 증권을 만나보세요
+    - iframe
+  - generic [ref=f5e51]:
+    - generic [ref=f5e52]:
+      - generic [ref=f5e53]:
+        - heading [level=2] [ref=f5e54]:
+          - link "국내증시" [ref=f5e55] [cursor=pointer]:
+            - /url: /sise/
+        - list [ref=f5e56]:
+          - listitem [ref=f5e57]:
+            - strong [ref=f5e58]: KRX 주요시세
+            - list [ref=f5e59]:
+              - listitem [ref=f5e60]:
+                - link "코스피" [ref=f5e61] [cursor=pointer]:
+                  - /url: /sise/sise_index.naver?code=KOSPI
+              - listitem [ref=f5e62]:
+                - link "코스닥" [ref=f5e63] [cursor=pointer]:
+                  - /url: /sise/sise_index.naver?code=KOSDAQ
+              - listitem [ref=f5e64]:
+                - link "선물" [ref=f5e65] [cursor=pointer]:
+                  - /url: /sise/sise_index.naver?code=FUT
+              - listitem [ref=f5e66]:
+                - link "코스피100" [ref=f5e67] [cursor=pointer]:
+                  - /url: /sise/sise_index.naver?code=KPI100
+              - listitem [ref=f5e68]:
+                - link "코스피200" [ref=f5e69] [cursor=pointer]:
+                  - /url: /sise/sise_index.naver?code=KPI200
+              - listitem [ref=f5e70]:
+                - link "코리아밸류업" [ref=f5e71] [cursor=pointer]:
+                  - /url: /sise/sise_index.naver?code=KVALUE
+              - listitem [ref=f5e72]:
+                - link "코넥스" [ref=f5e73] [cursor=pointer]:
+                  - /url: /sise/konex.naver
+              - listitem [ref=f5e74]:
+                - link "시가총액" [ref=f5e75] [cursor=pointer]:
+                  - /url: /sise/sise_market_sum.naver
+              - listitem [ref=f5e76]:
+                - link "배당" [ref=f5e77] [cursor=pointer]:
+                  - /url: /sise/dividend_list.naver
+              - listitem [ref=f5e78]:
+                - link "업종" [ref=f5e79] [cursor=pointer]:
+                  - /url: /sise/sise_group.naver?type=upjong
+              - listitem [ref=f5e80]:
+                - link "테마" [ref=f5e81] [cursor=pointer]:
+                  - /url: /sise/theme.naver
+              - listitem [ref=f5e82]:
+                - link "그룹사" [ref=f5e83] [cursor=pointer]:
+                  - /url: /sise/sise_group.naver?type=group
+              - listitem [ref=f5e84]:
+                - link "ETF" [ref=f5e85] [cursor=pointer]:
+                  - /url: /sise/etf.naver
+              - listitem [ref=f5e86]:
+                - link "ETN" [ref=f5e87] [cursor=pointer]:
+                  - /url: /sise/etn.naver
+              - listitem [ref=f5e88]:
+                - link "상승" [ref=f5e89] [cursor=pointer]:
+                  - /url: /sise/sise_rise.naver
+              - listitem [ref=f5e90]:
+                - link "보합" [ref=f5e91] [cursor=pointer]:
+                  - /url: /sise/sise_steady.naver
+              - listitem [ref=f5e92]:
+                - link "하락" [ref=f5e93] [cursor=pointer]:
+                  - /url: /sise/sise_fall.naver
+              - listitem [ref=f5e94]:
+                - link "상한가" [ref=f5e95] [cursor=pointer]:
+                  - /url: /sise/sise_upper.naver
+              - listitem [ref=f5e96]:
+                - link "하한가" [ref=f5e97] [cursor=pointer]:
+                  - /url: /sise/sise_lower.naver
+              - listitem [ref=f5e98]:
+                - link "급등" [ref=f5e99] [cursor=pointer]:
+                  - /url: /sise/sise_low_up.naver
+              - listitem [ref=f5e100]:
+                - link "급락" [ref=f5e101] [cursor=pointer]:
+                  - /url: /sise/sise_high_down.naver
+              - listitem [ref=f5e102]:
+                - link "거래상위" [ref=f5e103] [cursor=pointer]:
+                  - /url: /sise/sise_quant.naver
+              - listitem [ref=f5e104]:
+                - link "급증" [ref=f5e105] [cursor=pointer]:
+                  - /url: /sise/sise_quant_high.naver
+              - listitem [ref=f5e106]:
+                - link "급감" [ref=f5e107] [cursor=pointer]:
+                  - /url: /sise/sise_quant_low.naver
+              - listitem [ref=f5e108]:
+                - link "투자자별매매동향" [ref=f5e109] [cursor=pointer]:
+                  - /url: /sise/sise_trans_style.naver
+              - listitem [ref=f5e110]:
+                - link "외국인매매" [ref=f5e111] [cursor=pointer]:
+                  - /url: /sise/sise_deal_rank.naver
+              - listitem [ref=f5e112]:
+                - link "기관매매" [ref=f5e113] [cursor=pointer]:
+                  - /url: /sise/sise_deal_rank.naver?investor_gubun=1000
+              - listitem [ref=f5e114]:
+                - link "프로그램매매동향" [ref=f5e115] [cursor=pointer]:
+                  - /url: /sise/sise_program.naver
+              - listitem [ref=f5e116]:
+                - link "증시자금동향" [ref=f5e117] [cursor=pointer]:
+                  - /url: /sise/sise_deposit.naver
+              - listitem [ref=f5e118]:
+                - link "신규상장" [ref=f5e119] [cursor=pointer]:
+                  - /url: /sise/sise_new_stock.naver
+              - listitem [ref=f5e120]:
+                - link "외국인보유" [ref=f5e121] [cursor=pointer]:
+                  - /url: /sise/sise_foreign_hold.naver
+              - listitem [ref=f5e122]:
+                - link "장외시세" [ref=f5e123] [cursor=pointer]:
+                  - /url: /sise/market3news_list.naver
+              - listitem [ref=f5e124]:
+                - link "IPO" [ref=f5e125] [cursor=pointer]:
+                  - /url: /sise/ipo.naver
+          - listitem [ref=f5e126]:
+            - strong [ref=f5e127]: NXT 주요시세
+            - list [ref=f5e128]:
+              - listitem [ref=f5e129]:
+                - link "시가총액" [ref=f5e130] [cursor=pointer]:
+                  - /url: /sise/nxt_sise_market_sum.naver
+              - listitem [ref=f5e131]:
+                - link "거래상위" [ref=f5e132] [cursor=pointer]:
+                  - /url: /sise/nxt_sise_quant.naver
+              - listitem [ref=f5e133]:
+                - link "상승" [ref=f5e134] [cursor=pointer]:
+                  - /url: /sise/nxt_sise_rise.naver
+              - listitem [ref=f5e135]:
+                - link "하락" [ref=f5e136] [cursor=pointer]:
+                  - /url: /sise/nxt_sise_fall.naver
+          - listitem [ref=f5e137]:
+            - strong [ref=f5e138]: 투자자보호
+            - list [ref=f5e139]:
+              - listitem [ref=f5e140]:
+                - link "관리종목" [ref=f5e141] [cursor=pointer]:
+                  - /url: /sise/management.naver
+              - listitem [ref=f5e142]:
+                - link "거래정지종목" [ref=f5e143] [cursor=pointer]:
+                  - /url: /sise/trading_halt.naver
+              - listitem [ref=f5e144]:
+                - link "시장경보종목" [ref=f5e145] [cursor=pointer]:
+                  - /url: /sise/investment_alert.naver?type=caution
+          - listitem [ref=f5e146]:
+            - strong [ref=f5e147]: 종목조건검색
+            - list [ref=f5e148]:
+              - listitem [ref=f5e149]:
+                - link "골든크로스" [ref=f5e150] [cursor=pointer]:
+                  - /url: /sise/item_gold.naver
+              - listitem [ref=f5e151]:
+                - link "갭상승" [ref=f5e152] [cursor=pointer]:
+                  - /url: /sise/item_gap.naver
+              - listitem [ref=f5e153]:
+                - link "이격도과열" [ref=f5e154] [cursor=pointer]:
+                  - /url: /sise/item_igyuk.naver
+              - listitem [ref=f5e155]:
+                - link "투심과열" [ref=f5e156] [cursor=pointer]:
+                  - /url: /sise/item_overheating_1.naver
+              - listitem [ref=f5e157]:
+                - link "상대강도과열" [ref=f5e158] [cursor=pointer]:
+                  - /url: /sise/item_overheating_2.naver
+          - listitem [ref=f5e159]:
+            - link [ref=f5e160] [cursor=pointer]:
+              - /url: /sise/report.naver
+              - strong [ref=f5e161]: 기업 전자공시
+          - listitem [ref=f5e162]:
+            - link [ref=f5e163] [cursor=pointer]:
+              - /url: /sise/short_trade.naver
+              - strong [ref=f5e164]: 공매도 종합 현황
+      - generic [ref=f5e165]:
+        - generic [ref=f5e166]:
+          - generic [ref=f5e168]:
+            - link "증권홈" [ref=f5e169] [cursor=pointer]:
+              - /url: /
+            - text: ">"
+            - link "국내증시" [ref=f5e170] [cursor=pointer]:
+              - /url: /sise/
+            - text: ">"
+            - link "KRX 주요시세" [ref=f5e171] [cursor=pointer]:
+              - /url: "#"
+            - text: ">"
+            - combobox [ref=f5e172]:
+              - option "코스피"
+              - option "코스닥" [selected]
+              - option "선물"
+              - option "코스피100"
+              - option "코스피200"
+              - option "코리아밸류업"
+              - option "ETF"
+              - option "ETN"
+              - option "코넥스"
+          - generic [ref=f5e173]:
+            - heading "코스닥" [level=3] [ref=f5e174]
+            - generic [ref=f5e175]:
+              - link [ref=f5e176] [cursor=pointer]:
+                - /url: "#"
+                - text: 실시간
+                - generic [ref=f5e177]: 실시간으로 지수 데이터를 제공 중입니다.
+              - text: 2026.07.21 장마감
+          - generic [ref=f5e179]:
+            - list [ref=f5e181]:
+              - listitem [ref=f5e182]:
+                - link [ref=f5e183] [cursor=pointer]:
+                  - /url: javascript:select_chart(0)
+                  - strong [ref=f5e184]: "1"
+                  - text: 일
+                - img "그래프" [ref=f5e186]
+              - listitem [ref=f5e187]:
+                - link "3개월" [ref=f5e188] [cursor=pointer]:
+                  - /url: javascript:select_chart(1)
+                - img "그래프" [ref=f5e190]
+              - listitem [ref=f5e191]:
+                - link "1년" [ref=f5e192] [cursor=pointer]:
+                  - /url: javascript:select_chart(2)
+                - img "그래프" [ref=f5e194]
+              - listitem [ref=f5e195]:
+                - link "3년" [ref=f5e196] [cursor=pointer]:
+                  - /url: javascript:select_chart(3)
+                - img "그래프" [ref=f5e198]
+            - generic [ref=f5e199]:
+              - generic [ref=f5e200]:
+                - emphasis [ref=f5e201]: "753.34"
+                - generic [ref=f5e202]: 3.70 +0.49%상승
+              - table [ref=f5e203]:
+                - caption [ref=f5e204]: 코스닥 주요시세
+                - rowgroup [ref=f5e205]:
+                  - row [ref=f5e206]:
+                    - rowheader "거래량(천주)" [ref=f5e207]
+                    - cell "492,159" [ref=f5e208]
+                    - rowheader "거래대금(백만)" [ref=f5e209]
+                    - cell "4,588,366" [ref=f5e210]
+                  - row [ref=f5e211]:
+                    - rowheader "장중최고" [ref=f5e212]
+                    - cell "758.36" [ref=f5e213]
+                    - rowheader "장중최저" [ref=f5e214]
+                    - cell "730.81" [ref=f5e215]
+                  - row [ref=f5e216]:
+                    - rowheader "52주최고" [ref=f5e217]
+                    - cell "1,229.42" [ref=f5e218]
+                    - rowheader "52주최저" [ref=f5e219]
+                    - cell "730.81" [ref=f5e220]
+                  - row [ref=f5e221]:
+                    - rowheader "등락/종목" [ref=f5e222]
+                    - cell [ref=f5e223]:
+                      - list [ref=f5e224]:
+                        - listitem [ref=f5e225]:
+                          - text: 상한종목수
+                          - link "19" [ref=f5e226] [cursor=pointer]:
+                            - /url: /sise/sise_upper.naver
+                        - listitem [ref=f5e227]:
+                          - text: 상승종목수
+                          - link "983" [ref=f5e228] [cursor=pointer]:
+                            - /url: /sise/sise_rise.naver
+                        - listitem [ref=f5e229]:
+                          - text: 보합종목수
+                          - link "96" [ref=f5e230] [cursor=pointer]:
+                            - /url: /sise/sise_steady.naver
+                        - listitem [ref=f5e231]:
+                          - text: 하락종목수
+                          - link "657" [ref=f5e232] [cursor=pointer]:
+                            - /url: /sise/sise_fall.naver
+                        - listitem [ref=f5e233]:
+                          - text: 하한종목수
+                          - link "5" [ref=f5e234] [cursor=pointer]:
+                            - /url: /sise/sise_lower.naver
+            - generic [ref=f5e235]:
+              - term [ref=f5e236]: 투자자별 매매동향
+              - definition [ref=f5e237]:
+                - text: 개인
+                - generic [ref=f5e238]: +1,449억
+              - definition [ref=f5e239]:
+                - text: 외국인
+                - generic [ref=f5e240]: "-1,343억"
+              - definition [ref=f5e241]:
+                - text: 기관
+                - generic [ref=f5e242]: "-144억"
+              - term [ref=f5e243]: 프로그램 매매동향
+              - definition [ref=f5e244]:
+                - text: 차익
+                - generic [ref=f5e245]: +9억
+              - definition [ref=f5e246]:
+                - text: 비차익
+                - generic [ref=f5e247]: "-1,186억"
+              - definition [ref=f5e248]:
+                - text: 전체
+                - generic [ref=f5e249]: "-1,178억"
+          - generic [ref=f5e250]:
+            - heading [level=4] [ref=f5e251]:
+              - emphasis [ref=f5e252]: 시황
+              - text: 뉴스
+              - link "더보기" [ref=f5e254] [cursor=pointer]:
+                - /url: /news/news_list.naver?mode=LSS3D&section_id=101&section_id2=258&section_id3=401
+            - list [ref=f5e255]:
+              - listitem [ref=f5e256]:
+                - link "상승 마감한 코스피·코스닥" [ref=f5e258] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0009070973&office_id=421&mode=LSS3D&type=0&section_id=101&section_id2=258&section_id3=401&page=1
+                - paragraph [ref=f5e259]: 뉴스1 2026-07-21 15:50
+              - listitem [ref=f5e260]:
+                - link "코스피·코스닥 '상승' 환율 '하락'" [ref=f5e262] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0009070971&office_id=421&mode=LSS3D&type=0&section_id=101&section_id2=258&section_id3=401&page=1
+                - paragraph [ref=f5e263]: 뉴스1 2026-07-21 15:50
+              - listitem [ref=f5e264]:
+                - link "코스피·코스닥 '동반 상승'" [ref=f5e266] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0009070968&office_id=421&mode=LSS3D&type=0&section_id=101&section_id2=258&section_id3=401&page=1
+                - paragraph [ref=f5e267]: 뉴스1 2026-07-21 15:49
+              - listitem [ref=f5e268]:
+                - link "코스피·코스닥 '상승 마감'" [ref=f5e270] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0009070962&office_id=421&mode=LSS3D&type=0&section_id=101&section_id2=258&section_id3=401&page=1
+                - paragraph [ref=f5e271]: 뉴스1 2026-07-21 15:48
+              - listitem [ref=f5e272]:
+                - link "코스피, 3.6% 반등 성공하며 6,747 마감…코스닥은 강보합" [ref=f5e274] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0016206389&office_id=001&mode=LSS3D&type=0&section_id=101&section_id2=258&section_id3=401&page=1
+                - paragraph [ref=f5e275]: 연합뉴스 2026-07-21 15:36
+          - generic [ref=f5e276]:
+            - heading [level=4] [ref=f5e277]:
+              - emphasis [ref=f5e278]: 시황정보
+              - text: 리포트
+              - link "더보기" [ref=f5e280] [cursor=pointer]:
+                - /url: /research/market_info_list.naver
+            - list [ref=f5e281]:
+              - listitem [ref=f5e282]:
+                - link "[DS Defense Daily] 2026-07-21" [ref=f5e284] [cursor=pointer]:
+                  - /url: /research/market_info_read.naver?nid=36836&page=1
+                - paragraph [ref=f5e285]: DS투자증권 2026-07-21
+              - listitem [ref=f5e286]:
+                - link "마켓레이더 - 호재를 갈구하는 시장, 수출 호조라는 오아시스 (7월 .." [ref=f5e288] [cursor=pointer]:
+                  - /url: /research/market_info_read.naver?nid=36835&page=1
+                - paragraph [ref=f5e289]: 신한투자증권 2026-07-21
+              - listitem [ref=f5e290]:
+                - link "유안타 AI 미국 주식시장 마감 시황 (26.07.21)" [ref=f5e292] [cursor=pointer]:
+                  - /url: /research/market_info_read.naver?nid=36834&page=1
+                - paragraph [ref=f5e293]: 유안타증권 2026-07-21
+              - listitem [ref=f5e294]:
+                - link "국내주식 마감 시황 (26.07.20) - 알고 맞아도 아프다" [ref=f5e296] [cursor=pointer]:
+                  - /url: /research/market_info_read.naver?nid=36833&page=1
+                - paragraph [ref=f5e297]: 유안타증권 2026-07-21
+              - listitem [ref=f5e298]:
+                - link "Yuanta Morning Snapshot (26.07.21)" [ref=f5e300] [cursor=pointer]:
+                  - /url: /research/market_info_read.naver?nid=36832&page=1
+                - paragraph [ref=f5e301]: 유안타증권 2026-07-21
+          - iframe [ref=f5e302]:
+            - generic [ref=f7e2]:
+              - heading [level=4] [ref=f7e3]:
+                - emphasis [ref=f7e4]: 시간별
+                - text: 시세
+              - table [ref=f7e5]:
+                - caption [ref=f7e6]: 시간별 시세
+                - rowgroup [ref=f7e14]:
+                  - row [ref=f7e15]:
+                    - columnheader "체결시각" [ref=f7e16]
+                    - columnheader "체결가" [ref=f7e17]
+                    - columnheader "전일비" [ref=f7e18]
+                    - columnheader "변동량(천주)" [ref=f7e19]
+                    - columnheader "거래량(천주)" [ref=f7e20]
+                    - columnheader "거래대금(백만)" [ref=f7e21]
+                  - row:
+                    - cell
+                  - row [ref=f7e22]:
+                    - cell "15:32" [ref=f7e23]
+                    - cell "753.34" [ref=f7e24]
+                    - cell [ref=f7e25]:
+                      - img "상승" [ref=f7e26]
+                      - text: "3.70"
+                    - cell "194" [ref=f7e27]
+                    - cell "492,159" [ref=f7e28]
+                    - cell "4,588,366" [ref=f7e29]
+                  - row [ref=f7e30]:
+                    - cell "15:31" [ref=f7e31]
+                    - cell "753.36" [ref=f7e32]
+                    - cell [ref=f7e33]:
+                      - img "상승" [ref=f7e34]
+                      - text: "3.72"
+                    - cell "0" [ref=f7e35]
+                    - cell "491,965" [ref=f7e36]
+                    - cell "4,588,071" [ref=f7e37]
+                  - row [ref=f7e38]:
+                    - cell "15:30" [ref=f7e39]
+                    - cell "753.36" [ref=f7e40]
+                    - cell [ref=f7e41]:
+                      - img "상승" [ref=f7e42]
+                      - text: "3.72"
+                    - cell "4,988" [ref=f7e43]
+                    - cell "491,965" [ref=f7e44]
+                    - cell "4,588,071" [ref=f7e45]
+                  - row:
+                    - cell
+                  - row:
+                    - cell
+                  - row:
+                    - cell
+                  - row
+                  - row [ref=f7e46]:
+                    - cell "15:29" [ref=f7e47]
+                    - cell "753.85" [ref=f7e48]
+                    - cell [ref=f7e49]:
+                      - img "상승" [ref=f7e50]
+                      - text: "4.21"
+                    - cell "0" [ref=f7e51]
+                    - cell "486,977" [ref=f7e52]
+                    - cell "4,514,054" [ref=f7e53]
+                  - row [ref=f7e54]:
+                    - cell "15:28" [ref=f7e55]
+                    - cell "753.85" [ref=f7e56]
+                    - cell [ref=f7e57]:
+                      - img "상승" [ref=f7e58]
+                      - text: "4.21"
+                    - cell "0" [ref=f7e59]
+                    - cell "486,977" [ref=f7e60]
+                    - cell "4,514,054" [ref=f7e61]
+                  - row [ref=f7e62]:
+                    - cell "15:27" [ref=f7e63]
+                    - cell "753.85" [ref=f7e64]
+                    - cell [ref=f7e65]:
+                      - img "상승" [ref=f7e66]
+                      - text: "4.21"
+                    - cell "0" [ref=f7e67]
+                    - cell "486,977" [ref=f7e68]
+                    - cell "4,514,054" [ref=f7e69]
+                  - row:
+                    - cell
+                  - row:
+                    - cell
+              - table [ref=f7e70]:
+                - caption [ref=f7e71]: 페이지 네비게이션
+                - rowgroup [ref=f7e72]:
+                  - row [ref=f7e73]:
+                    - cell [ref=f7e74]:
+                      - link "1" [ref=f7e75] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=1
+                    - cell [ref=f7e76]:
+                      - link "2" [ref=f7e77] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=2
+                    - cell [ref=f7e78]:
+                      - link "3" [ref=f7e79] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=3
+                    - cell [ref=f7e80]:
+                      - link "4" [ref=f7e81] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=4
+                    - cell [ref=f7e82]:
+                      - link "5" [ref=f7e83] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=5
+                    - cell [ref=f7e84]:
+                      - link "6" [ref=f7e85] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=6
+                    - cell [ref=f7e86]:
+                      - link "7" [ref=f7e87] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=7
+                    - cell [ref=f7e88]:
+                      - link "8" [ref=f7e89] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=8
+                    - cell [ref=f7e90]:
+                      - link "9" [ref=f7e91] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=9
+                    - cell [ref=f7e92]:
+                      - link "10" [ref=f7e93] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=10
+                    - cell [ref=f7e94]:
+                      - link "다음" [ref=f7e95] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=11
+                    - cell [ref=f7e96]:
+                      - link "맨뒤" [ref=f7e97] [cursor=pointer]:
+                        - /url: /sise/sise_index_time.naver?code=KOSDAQ&thistime=20260721161600&page=66
+          - iframe [ref=f5e303]:
+            - generic [ref=f8e2]:
+              - heading [level=4] [ref=f8e3]:
+                - emphasis [ref=f8e4]: 일별
+                - text: 시세
+              - table [ref=f8e5]:
+                - caption [ref=f8e6]: 일별시세
+                - rowgroup [ref=f8e14]:
+                  - row [ref=f8e15]:
+                    - columnheader "날짜" [ref=f8e16]
+                    - columnheader "체결가" [ref=f8e17]
+                    - columnheader "전일비" [ref=f8e18]
+                    - columnheader "등락률" [ref=f8e19]
+                    - columnheader "거래량(천주)" [ref=f8e20]
+                    - columnheader "거래대금(백만)" [ref=f8e21]
+                  - row:
+                    - cell
+                  - row [ref=f8e22]:
+                    - cell "2026.07.21" [ref=f8e23]
+                    - cell "753.34" [ref=f8e24]
+                    - cell [ref=f8e25]:
+                      - img "상승" [ref=f8e26]
+                      - text: "3.70"
+                    - cell "+0.49%" [ref=f8e27]
+                    - cell "492,159" [ref=f8e28]
+                    - cell "4,588,366" [ref=f8e29]
+                  - row [ref=f8e30]:
+                    - cell "2026.07.20" [ref=f8e31]
+                    - cell "749.64" [ref=f8e32]
+                    - cell [ref=f8e33]:
+                      - img "하락" [ref=f8e34]
+                      - text: "42.20"
+                    - cell "-5.33%" [ref=f8e35]
+                    - cell "528,418" [ref=f8e36]
+                    - cell "4,832,262" [ref=f8e37]
+                  - row [ref=f8e38]:
+                    - cell "2026.07.16" [ref=f8e39]
+                    - cell "791.84" [ref=f8e40]
+                    - cell [ref=f8e41]:
+                      - img "하락" [ref=f8e42]
+                      - text: "37.59"
+                    - cell "-4.53%" [ref=f8e43]
+                    - cell "525,847" [ref=f8e44]
+                    - cell "4,720,450" [ref=f8e45]
+                  - row:
+                    - cell
+                  - row:
+                    - cell
+                  - row:
+                    - cell
+                  - row
+                  - row [ref=f8e46]:
+                    - cell "2026.07.15" [ref=f8e47]
+                    - cell "829.43" [ref=f8e48]
+                    - cell [ref=f8e49]:
+                      - img "상승" [ref=f8e50]
+                      - text: "45.45"
+                    - cell "+5.80%" [ref=f8e51]
+                    - cell "497,383" [ref=f8e52]
+                    - cell "6,392,372" [ref=f8e53]
+                  - row [ref=f8e54]:
+                    - cell "2026.07.14" [ref=f8e55]
+                    - cell "783.98" [ref=f8e56]
+                    - cell [ref=f8e57]:
+                      - img "하락" [ref=f8e58]
+                      - text: "15.38"
+                    - cell "-1.92%" [ref=f8e59]
+                    - cell "551,553" [ref=f8e60]
+                    - cell "6,734,976" [ref=f8e61]
+                  - row [ref=f8e62]:
+                    - cell "2026.07.13" [ref=f8e63]
+                    - cell "799.36" [ref=f8e64]
+                    - cell [ref=f8e65]:
+                      - img "하락" [ref=f8e66]
+                      - text: "38.07"
+                    - cell "-4.55%" [ref=f8e67]
+                    - cell "523,405" [ref=f8e68]
+                    - cell "7,420,283" [ref=f8e69]
+                  - row:
+                    - cell
+                  - row:
+                    - cell
+              - table [ref=f8e70]:
+                - caption [ref=f8e71]: 페이지 네비게이션
+                - rowgroup [ref=f8e72]:
+                  - row [ref=f8e73]:
+                    - cell [ref=f8e74]:
+                      - link "1" [ref=f8e75] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=1
+                    - cell [ref=f8e76]:
+                      - link "2" [ref=f8e77] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=2
+                    - cell [ref=f8e78]:
+                      - link "3" [ref=f8e79] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=3
+                    - cell [ref=f8e80]:
+                      - link "4" [ref=f8e81] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=4
+                    - cell [ref=f8e82]:
+                      - link "5" [ref=f8e83] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=5
+                    - cell [ref=f8e84]:
+                      - link "6" [ref=f8e85] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=6
+                    - cell [ref=f8e86]:
+                      - link "7" [ref=f8e87] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=7
+                    - cell [ref=f8e88]:
+                      - link "8" [ref=f8e89] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=8
+                    - cell [ref=f8e90]:
+                      - link "9" [ref=f8e91] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=9
+                    - cell [ref=f8e92]:
+                      - link "10" [ref=f8e93] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=10
+                    - cell [ref=f8e94]:
+                      - link "다음" [ref=f8e95] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=11
+                    - cell [ref=f8e96]:
+                      - link "맨뒤" [ref=f8e97] [cursor=pointer]:
+                        - /url: /sise/sise_index_day.naver?code=KOSDAQ&page=1253
+        - generic [ref=f5e304]:
+          - iframe [ref=f5e305]:
+            - generic [ref=f9e2]:
+              - link [ref=f9e3] [cursor=pointer]:
+                - /url: "?type=recent&code=KOSDAQ&width=200"
+                - img "최근조회" [ref=f9e4]
+              - link [ref=f9e5] [cursor=pointer]:
+                - /url: "?type=mystock&code=KOSDAQ&width=200"
+                - img "MY STOCK" [ref=f9e6]
+              - heading "my stock" [level=2] [ref=f9e7]
+              - generic [ref=f9e8]: 최근 조회 항목이 없습니다.
+          - generic [ref=f5e307]:
+            - heading [level=2] [ref=f5e308]:
+              - img "인기검색어" [ref=f5e309]
+              - link "더보기" [ref=f5e311] [cursor=pointer]:
+                - /url: /sise/lastsearch2.naver
+            - table [ref=f5e312]:
+              - caption [ref=f5e313]: 인기검색어
+              - rowgroup [ref=f5e319]:
+                - row [ref=f5e320]:
+                  - cell [ref=f5e321]:
+                    - img "01" [ref=f5e322]
+                  - cell [ref=f5e323]:
+                    - link "삼성전자" [ref=f5e324] [cursor=pointer]:
+                      - /url: /item/main.naver?code=005930
+                  - cell "259,000" [ref=f5e325]
+                  - cell [ref=f5e326]:
+                    - img "up" [ref=f5e327]
+                - row [ref=f5e328]:
+                  - cell [ref=f5e329]:
+                    - img "01" [ref=f5e330]
+                  - cell [ref=f5e331]:
+                    - link "SK하이닉스" [ref=f5e332] [cursor=pointer]:
+                      - /url: /item/main.naver?code=000660
+                  - cell "1,836,000" [ref=f5e333]
+                  - cell [ref=f5e334]:
+                    - img "up" [ref=f5e335]
+                - row [ref=f5e336]:
+                  - cell [ref=f5e337]:
+                    - img "01" [ref=f5e338]
+                  - cell [ref=f5e339]:
+                    - link "삼천당제약" [ref=f5e340] [cursor=pointer]:
+                      - /url: /item/main.naver?code=000250
+                  - cell "167,800" [ref=f5e341]
+                  - cell [ref=f5e342]:
+                    - img "down" [ref=f5e343]
+                - row [ref=f5e344]:
+                  - cell [ref=f5e345]:
+                    - img "01" [ref=f5e346]
+                  - cell [ref=f5e347]:
+                    - link "현대차" [ref=f5e348] [cursor=pointer]:
+                      - /url: /item/main.naver?code=005380
+                  - cell "399,000" [ref=f5e349]
+                  - cell "-" [ref=f5e350]
+                - row [ref=f5e351]:
+                  - cell [ref=f5e352]:
+                    - img "01" [ref=f5e353]
+                  - cell [ref=f5e354]:
+                    - link "삼성전기" [ref=f5e355] [cursor=pointer]:
+                      - /url: /item/main.naver?code=009150
+                  - cell "1,310,000" [ref=f5e356]
+                  - cell [ref=f5e357]:
+                    - img "up" [ref=f5e358]
+          - generic [ref=f5e360]:
+            - heading [level=2] [ref=f5e361]:
+              - img "가장 많이 본 뉴스" [ref=f5e362]
+              - link "더보기" [ref=f5e364] [cursor=pointer]:
+                - /url: /news/news_list.naver?mode=RANK
+            - list [ref=f5e365]:
+              - listitem [ref=f5e366]:
+                - link "\"적금 깼다…월급으론 도저히 안돼\" 전 세계 개미가 쓸어담은 '이 주식'" [ref=f5e367] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0005792481&office_id=277&mode=RANK
+              - listitem [ref=f5e368]:
+                - link "‘매도 폭탄설’ 국민연금… 이달만 SK하이닉스 3700억 샀다" [ref=f5e369] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0001862066&office_id=005&mode=RANK
+              - listitem [ref=f5e370]:
+                - link "9천피에서 6천피 됐는데...증권가는 \"월말에 반등한다\" 확신" [ref=f5e371] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0005550494&office_id=014&mode=RANK
+              - listitem [ref=f5e372]:
+                - link "“반도체주 회복하나”…SK하이닉스·삼성전자, 6~7%대 동반 급등세" [ref=f5e373] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0005710055&office_id=009&mode=RANK
+              - listitem [ref=f5e374]:
+                - link "“주식 무조건 사라”던 박진영도 1000억 날아갔다…JYP 반토막에도 증권가 “더 오른다”" [ref=f5e375] [cursor=pointer]:
+                  - /url: /news/news_read.naver?article_id=0004643528&office_id=011&mode=RANK
+    - generic [ref=f5e376]:
+      - list [ref=f5e377]:
+        - listitem [ref=f5e378]:
+          - link "이용약관" [ref=f5e379] [cursor=pointer]:
+            - /url: https://new-m.pay.naver.com/member/terms-policy/naver-financial-service
+        - listitem [ref=f5e380]:
+          - link [ref=f5e381] [cursor=pointer]:
+            - /url: https://new-m.pay.naver.com/member/terms-policy/privacy
+            - strong [ref=f5e382]: 개인정보처리방침
+        - listitem [ref=f5e383]:
+          - link "게시판 운영원칙" [ref=f5e384] [cursor=pointer]:
+            - /url: /rules.naver
+        - listitem [ref=f5e385]:
+          - link "증권 고객센터" [ref=f5e386] [cursor=pointer]:
+            - /url: https://help.pay.naver.com/faq/alias/finance.help
+      - paragraph [ref=f5e387]:
+        - text: 네이버파이낸셜(주)이 제공하는 금융 정보는
+        - link "콘텐츠 제공업체" [ref=f5e388] [cursor=pointer]:
+          - /url: javascript:;
+        - text: 로부터 받는 투자 참고사항이며, 오류가 발생하거나 지연될 수 있습니다. 네이버파이낸셜(주)과 콘텐츠 제공업체는 제공된 정보에 의한 투자 결과에 법적인 책임을 지지 않습니다. 게시된 정보는 무단으로 배포할 수 없습니다.
+      - paragraph [ref=f5e389]: 국내 증시 기본 데이터는 한국거래소(KRX)에서 제공합니다.
+      - link [ref=f5e391] [cursor=pointer]:
+        - /url: https://www.naverfincorp.com/
+        - img "NAVER FINANCIAL" [ref=f5e392]

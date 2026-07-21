@@ -1,0 +1,1296 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e2]:
+    - link "메인 메뉴로 바로가기" [ref=f13e3] [cursor=pointer]:
+      - /url: "#menu"
+    - link "본문으로 바로가기" [ref=f13e4] [cursor=pointer]:
+      - /url: "#middle"
+  - generic [ref=f13e5]:
+    - generic [ref=f13e7]:
+      - heading [level=1] [ref=f13e9]:
+        - link "네이버" [ref=f13e10] [cursor=pointer]:
+          - /url: https://www.naver.com/
+        - link "페이" [ref=f13e13] [cursor=pointer]:
+          - /url: https://new-m.pay.naver.com/
+        - link "증권" [ref=f13e16] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f13e22]:
+        - text: 증권 종목명·지수명 검색
+        - textbox "증권 종목명·지수명 검색" [ref=f13e23]:
+          - /placeholder: 종목명·지수명 입력
+        - button "검색" [ref=f13e24]
+        - generic [ref=f13e28]: 자동완성
+    - generic [ref=f13e31]:
+      - list [ref=f13e32]:
+        - listitem [ref=f13e33]:
+          - link "증권 홈" [ref=f13e34] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f13e35]:
+          - link "국내증시선택됨" [ref=f13e36] [cursor=pointer]:
+            - /url: /sise/
+        - listitem [ref=f13e37]:
+          - link "해외증시" [ref=f13e38] [cursor=pointer]:
+            - /url: /world/
+        - listitem [ref=f13e39]:
+          - link "시장지표" [ref=f13e40] [cursor=pointer]:
+            - /url: /marketindex/
+        - listitem [ref=f13e41]:
+          - link "리서치" [ref=f13e42] [cursor=pointer]:
+            - /url: /research/
+        - listitem [ref=f13e43]:
+          - link "뉴스" [ref=f13e44] [cursor=pointer]:
+            - /url: /news/
+        - listitem [ref=f13e45]:
+          - link "MY" [ref=f13e46] [cursor=pointer]:
+            - /url: /mystock/
+      - generic [ref=f13e47]:
+        - link "새로운 증권 보기 NEW" [ref=f13e48] [cursor=pointer]:
+          - /url: https://stock.naver.com
+          - text: 새로운 증권 보기
+          - generic [ref=f13e49]: NEW
+        - generic [ref=f13e50]: 더 편리해진 증권을 만나보세요
+    - iframe
+  - generic [ref=f13e51]:
+    - generic [ref=f13e52]:
+      - generic [ref=f13e53]:
+        - term [ref=f13e54]: 종목 시세 정보
+        - definition [ref=f13e55]: 2026년 07월 21일 16시 10분 기준 장마감
+        - definition [ref=f13e56]: 종목명 SK하이닉스
+        - definition [ref=f13e57]: 종목코드 000660 코스피
+        - definition [ref=f13e58]: 현재가 1,836,000 전일대비 상승 72,000 플러스 4.08 퍼센트
+        - definition [ref=f13e59]: 전일가 1,764,000
+        - definition [ref=f13e60]: 시가 1,775,000
+        - definition [ref=f13e61]: 고가 1,889,000
+        - definition [ref=f13e62]: 상한가 2,293,000
+        - definition [ref=f13e63]: 저가 1,732,000
+        - definition [ref=f13e64]: 하한가 1,235,000
+        - definition [ref=f13e65]: 거래량 4,593,781
+        - definition [ref=f13e66]: 거래대금 8,382,677백만
+      - generic [ref=f13e67]:
+        - generic [ref=f13e68]:
+          - heading [level=2] [ref=f13e69]:
+            - link "SK하이닉스" [ref=f13e70] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f13e71]:
+            - text: "000660"
+            - img "코스피" [ref=f13e72]
+            - text: 날짜
+            - emphasis [ref=f13e74]: 2026.07.21 기준(KRX 장마감)
+            - emphasis [ref=f13e75]: 실시간
+            - emphasis [ref=f13e76]:
+              - link:
+                - /url: "#"
+              - text: 기업개요
+        - generic [ref=f13e77]:
+          - paragraph [ref=f13e78]:
+            - link "MY STOCK 추가" [ref=f13e79] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f13e81]:
+            - generic:
+              - list
+            - paragraph [ref=f13e82]:
+              - button "그룹추가" [ref=f13e83]
+            - paragraph [ref=f13e84]:
+              - button "확인" [ref=f13e85]
+              - button "닫기" [ref=f13e86]
+      - generic [ref=f13e87]:
+        - generic [ref=f13e88]:
+          - generic [ref=f13e89]:
+            - generic [ref=f13e90]:
+              - list [ref=f13e91]:
+                - listitem [ref=f13e92]:
+                  - link "KRX" [ref=f13e93] [cursor=pointer]:
+                    - /url: javascript:showStockExchangeArea('top_tab_krx', 'top_tab_nxt', 'rate_info_krx', 'rate_info_nxt')
+                - listitem [ref=f13e94]:
+                  - link "NXT" [ref=f13e95] [cursor=pointer]:
+                    - /url: javascript:showStockExchangeArea('top_tab_nxt', 'top_tab_krx', 'rate_info_nxt', 'rate_info_krx')
+              - generic [ref=f13e96]: After-Market
+              - generic [ref=f13e97]:
+                - text: 넥스트레이드(NXT)
+                - button "도움말" [ref=f13e98]
+                - paragraph [ref=f13e101]:
+                  - strong [ref=f13e102]: 넥스트레이드(NXT)
+                  - text: 넥스트레이드(NXT)란 대한민국 최초의 대체거래소(ATS, Alternative Trading System)입니다.
+            - generic [ref=f13e103]:
+              - generic [ref=f13e104]:
+                - term [ref=f13e105]:
+                  - strong [ref=f13e106]: SK하이닉스
+                - definition [ref=f13e107]: 오늘의시세 1,845,000 포인트
+                - definition [ref=f13e108]: 81,000 포인트 상승
+                - definition [ref=f13e109]: 4.59% 플러스
+              - generic [ref=f13e110]:
+                - paragraph [ref=f13e111]:
+                  - emphasis [ref=f13e112]: 1,845,000 1,845,000
+                - paragraph [ref=f13e113]:
+                  - text: 전일대비
+                  - emphasis [ref=f13e114]: 상승 81,000 81,000
+                  - text: l
+                  - emphasis [ref=f13e115]: + 4.59 4.59 %
+              - table [ref=f13e116]:
+                - caption [ref=f13e117]: 주요 시세
+                - rowgroup [ref=f13e122]:
+                  - row [ref=f13e123]:
+                    - cell [ref=f13e124]:
+                      - text: 전일
+                      - emphasis [ref=f13e125]: 1,764,000 1,764,000
+                    - cell [ref=f13e126]:
+                      - text: 고가
+                      - emphasis [ref=f13e127]: 1,889,0001,889,000
+                      - text: (상한가
+                      - emphasis [ref=f13e128]: 2,293,0002,293,000
+                      - text: )
+                    - cell [ref=f13e129]:
+                      - text: 거래량
+                      - emphasis [ref=f13e130]: 2,654,501 2,654,501
+                  - row [ref=f13e131]:
+                    - cell [ref=f13e132]:
+                      - text: 시가
+                      - emphasis [ref=f13e133]: 1,768,0001,768,000
+                    - cell [ref=f13e134]:
+                      - text: 저가
+                      - emphasis [ref=f13e135]: 1,736,0001,736,000
+                      - text: (하한가
+                      - emphasis [ref=f13e136]: 1,235,000
+                      - text: )
+                    - cell [ref=f13e137]:
+                      - text: 거래대금
+                      - emphasis [ref=f13e138]: 4,823,232 4,823,232
+                      - text: 백만
+            - generic [ref=f13e139]:
+              - paragraph [ref=f13e140]: 종목 시세 차트
+              - generic [ref=f13e141]:
+                - generic [ref=f13e142]:
+                  - term [ref=f13e143]: 선차트
+                  - definition [ref=f13e144]:
+                    - list [ref=f13e145]:
+                      - listitem [ref=f13e146]:
+                        - link "1일" [ref=f13e147] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e148]:
+                        - link "1주일" [ref=f13e149] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e150]:
+                        - link "3개월" [ref=f13e151] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e152]:
+                        - link "1년" [ref=f13e153] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e154]:
+                        - link "3년" [ref=f13e155] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e156]:
+                        - link "5년" [ref=f13e157] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e158]:
+                        - link "10년" [ref=f13e159] [cursor=pointer]:
+                          - /url: "#"
+                - generic [ref=f13e160]:
+                  - term [ref=f13e161]: 봉차트
+                  - definition [ref=f13e162]:
+                    - list [ref=f13e163]:
+                      - listitem [ref=f13e164]:
+                        - link "일봉" [ref=f13e165] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e166]:
+                        - link "주봉" [ref=f13e167] [cursor=pointer]:
+                          - /url: "#"
+                      - listitem [ref=f13e168]:
+                        - link "월봉" [ref=f13e169] [cursor=pointer]:
+                          - /url: "#"
+              - paragraph [ref=f13e170]: 한국거래소(KRX)
+              - heading "이미지 차트" [level=5] [ref=f13e171]
+              - img "이미지 차트" [ref=f13e172]
+            - link [ref=f13e173] [cursor=pointer]:
+              - /url: javascript:fchartStatus.showChartArea('000660', 'SK%C7%CF%C0%CC%B4%D0%BD%BA', 'false',true)
+              - img "차트닫기" [ref=f13e175]
+          - generic [ref=f13e176]:
+            - text: 한국거래소(KRX) 제공
+            - button "도움말" [ref=f13e177]
+            - paragraph [ref=f13e180]:
+              - strong [ref=f13e181]: 한국거래소(KRX) 제공
+              - text: 종합정보 데이터는 한국거래소(KRX)에서 제공합니다.
+          - list [ref=f13e182]:
+            - listitem [ref=f13e183]:
+              - link "종합정보" [ref=f13e184] [cursor=pointer]:
+                - /url: /item/main.naver?code=000660
+            - listitem [ref=f13e185]:
+              - link "시세" [ref=f13e186] [cursor=pointer]:
+                - /url: /item/sise.naver?code=000660
+            - listitem [ref=f13e187]:
+              - link "차트" [ref=f13e188] [cursor=pointer]:
+                - /url: /item/fchart.naver?code=000660
+            - listitem [ref=f13e189]:
+              - link "투자자별 매매동향" [ref=f13e190] [cursor=pointer]:
+                - /url: /item/frgn.naver?code=000660
+            - listitem [ref=f13e191]:
+              - link "뉴스·공시" [ref=f13e192] [cursor=pointer]:
+                - /url: /item/news.naver?code=000660
+            - listitem [ref=f13e193]:
+              - link "종목분석" [ref=f13e194] [cursor=pointer]:
+                - /url: /item/coinfo.naver?code=000660
+            - listitem [ref=f13e195]:
+              - link "종목토론" [ref=f13e196] [cursor=pointer]:
+                - /url: /item/board.naver?code=000660
+            - listitem [ref=f13e197]:
+              - link "전자공시" [ref=f13e198] [cursor=pointer]:
+                - /url: /item/dart.naver?code=000660
+            - listitem [ref=f13e199]:
+              - link "공매도현황" [ref=f13e200] [cursor=pointer]:
+                - /url: /item/short_trade.naver?code=000660
+          - separator [ref=f13e201]
+          - heading "종합정보" [level=3] [ref=f13e202]
+          - generic [ref=f13e203]:
+            - heading [level=4] [ref=f13e204]:
+              - text: 투자자별 매매동향
+              - emphasis [ref=f13e205]: "거래원 정보 : 일별 상위 5위 거래원의 누적 정보 기준 (20분 지연)"
+            - generic [ref=f13e206]:
+              - heading "거래원 정보" [level=5] [ref=f13e207]
+              - table [ref=f13e208]:
+                - caption [ref=f13e209]: 거래원 정보
+                - rowgroup [ref=f13e215]:
+                  - row [ref=f13e216]:
+                    - columnheader "매도상위" [ref=f13e217]
+                    - columnheader "거래량" [ref=f13e218]
+                    - columnheader "매수상위" [ref=f13e219]
+                    - columnheader "거개량" [ref=f13e220]
+                - rowgroup [ref=f13e221]:
+                  - row [ref=f13e222]:
+                    - cell [ref=f13e223]:
+                      - strong [ref=f13e224]: 외국계추정합
+                    - cell [ref=f13e225]:
+                      - emphasis [ref=f13e226]: 633,165
+                    - cell [ref=f13e227]:
+                      - emphasis [ref=f13e228]: "-478,498"
+                    - cell [ref=f13e229]:
+                      - emphasis [ref=f13e230]: 154,667
+                - rowgroup [ref=f13e231]:
+                  - row [ref=f13e232]:
+                    - cell [ref=f13e233]
+                  - row [ref=f13e234]:
+                    - cell "키움증권" [ref=f13e235]
+                    - cell [ref=f13e236]:
+                      - emphasis [ref=f13e237]: 564,645
+                    - cell "삼성증권" [ref=f13e238]
+                    - cell [ref=f13e239]:
+                      - emphasis [ref=f13e240]: 487,480
+                  - row [ref=f13e241]:
+                    - cell "제이피모간" [ref=f13e242]
+                    - cell [ref=f13e243]:
+                      - emphasis [ref=f13e244]: 526,686
+                    - cell "키움증권" [ref=f13e245]
+                    - cell [ref=f13e246]:
+                      - emphasis [ref=f13e247]: 432,794
+                  - row [ref=f13e248]:
+                    - cell "삼성증권" [ref=f13e249]
+                    - cell [ref=f13e250]:
+                      - emphasis [ref=f13e251]: 364,907
+                    - cell "메리츠증권" [ref=f13e252]
+                    - cell [ref=f13e253]:
+                      - emphasis [ref=f13e254]: 266,692
+                  - row [ref=f13e255]:
+                    - cell "신한투자증권" [ref=f13e256]
+                    - cell [ref=f13e257]:
+                      - emphasis [ref=f13e258]: 286,814
+                    - cell "KB증권" [ref=f13e259]
+                    - cell [ref=f13e260]:
+                      - emphasis [ref=f13e261]: 247,624
+                  - row [ref=f13e262]:
+                    - cell "KB증권" [ref=f13e263]
+                    - cell [ref=f13e264]:
+                      - emphasis [ref=f13e265]: 263,427
+                    - cell "미래에셋증권" [ref=f13e266]
+                    - cell [ref=f13e267]:
+                      - emphasis [ref=f13e268]: 245,076
+            - generic [ref=f13e269]:
+              - heading "외국인 기관" [level=5] [ref=f13e270]
+              - table [ref=f13e271]:
+                - caption [ref=f13e272]: 외국인 기관
+                - rowgroup [ref=f13e279]:
+                  - row [ref=f13e280]:
+                    - columnheader "날짜" [ref=f13e281]
+                    - columnheader "종가" [ref=f13e282]
+                    - columnheader "전일비" [ref=f13e283]
+                    - columnheader "외국인" [ref=f13e284]
+                    - columnheader "기관" [ref=f13e285]
+                - rowgroup [ref=f13e286]:
+                  - row [ref=f13e287]:
+                    - cell [ref=f13e288]
+                  - row [ref=f13e289]:
+                    - rowheader "07/20" [ref=f13e290]
+                    - cell [ref=f13e291]:
+                      - emphasis [ref=f13e292]: 1,764,000
+                    - cell [ref=f13e293]:
+                      - emphasis [ref=f13e294]: 하향 78,000
+                    - cell [ref=f13e295]:
+                      - emphasis [ref=f13e296]: +331,597
+                    - cell [ref=f13e297]:
+                      - emphasis [ref=f13e298]: "-527,040"
+                  - row [ref=f13e299]:
+                    - rowheader "07/16" [ref=f13e300]
+                    - cell [ref=f13e301]:
+                      - emphasis [ref=f13e302]: 1,842,000
+                    - cell [ref=f13e303]:
+                      - emphasis [ref=f13e304]: 하향 240,000
+                    - cell [ref=f13e305]:
+                      - emphasis [ref=f13e306]: "-469,637"
+                    - cell [ref=f13e307]:
+                      - emphasis [ref=f13e308]: "-628,785"
+                  - row [ref=f13e309]:
+                    - rowheader "07/15" [ref=f13e310]
+                    - cell [ref=f13e311]:
+                      - emphasis [ref=f13e312]: 2,082,000
+                    - cell [ref=f13e313]:
+                      - emphasis [ref=f13e314]: 상향 169,000
+                    - cell [ref=f13e315]:
+                      - emphasis [ref=f13e316]: +331,145
+                    - cell [ref=f13e317]:
+                      - emphasis [ref=f13e318]: +265,930
+                  - row [ref=f13e319]:
+                    - rowheader "07/14" [ref=f13e320]
+                    - cell [ref=f13e321]:
+                      - emphasis [ref=f13e322]: 1,913,000
+                    - cell [ref=f13e323]:
+                      - emphasis [ref=f13e324]: 상향 68,000
+                    - cell [ref=f13e325]:
+                      - emphasis [ref=f13e326]: +664,541
+                    - cell [ref=f13e327]:
+                      - emphasis [ref=f13e328]: +697,670
+                  - row [ref=f13e329]:
+                    - rowheader "07/13" [ref=f13e330]
+                    - cell [ref=f13e331]:
+                      - emphasis [ref=f13e332]: 1,845,000
+                    - cell [ref=f13e333]:
+                      - emphasis [ref=f13e334]: 하향 335,000
+                    - cell [ref=f13e335]:
+                      - emphasis [ref=f13e336]: "-704,671"
+                    - cell [ref=f13e337]:
+                      - emphasis [ref=f13e338]: "-781,727"
+                  - row [ref=f13e339]:
+                    - rowheader "07/10" [ref=f13e340]
+                    - cell [ref=f13e341]:
+                      - emphasis [ref=f13e342]: 2,180,000
+                    - cell [ref=f13e343]:
+                      - emphasis [ref=f13e344]: 하향 6,000
+                    - cell [ref=f13e345]:
+                      - emphasis [ref=f13e346]: "-768,843"
+                    - cell [ref=f13e347]:
+                      - emphasis [ref=f13e348]: +204,193
+                  - row [ref=f13e349]:
+                    - cell [ref=f13e350]
+            - link "더보기" [ref=f13e351] [cursor=pointer]:
+              - /url: /item/frgn.naver?code=000660
+          - separator [ref=f13e352]
+          - generic [ref=f13e353]:
+            - generic [ref=f13e354]:
+              - heading "뉴스공시" [level=4] [ref=f13e355]
+              - list [ref=f13e356]:
+                - listitem [ref=f13e357]:
+                  - link "코스피 3.6% 상승 마감…반도체 질주에 6700선 회복" [ref=f13e359] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0000517742&office_id=629&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e360]: 07/21
+                - listitem [ref=f13e361]:
+                  - link "'살아난 반도체' 기관·외인 순매수…코스피 3거래..." [ref=f13e363] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0009071050&office_id=421&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e364]: 07/21
+                - listitem [ref=f13e365]:
+                  - link "코스피, 검은 월요일 딛고 4% 급등…3거래일만에 상..." [ref=f13e367] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0004170508&office_id=079&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e368]: 07/21
+                - listitem [ref=f13e369]:
+                  - generic [ref=f13e370]:
+                    - link "롤러코스피에 지친 개미들 다시 미..." [ref=f13e371] [cursor=pointer]:
+                      - /url: /item/news_read.naver?article_id=0004170507&office_id=079&code=000660&sm=entity_id.basic
+                    - link [ref=f13e372] [cursor=pointer]:
+                      - /url: /item/news.naver?code=000660&clusterId=0790004170507
+                      - text: 관련
+                      - emphasis [ref=f13e373]: "5"
+                      - text: 건
+                  - emphasis [ref=f13e374]: 07/21
+                - listitem [ref=f13e375]:
+                  - link "반도체 수출 훈풍에 코스피 6700선 회복…삼성전자 ..." [ref=f13e377] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0004643598&office_id=011&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e378]: 07/21
+              - list [ref=f13e379]:
+                - listitem [ref=f13e380]:
+                  - generic [ref=f13e381]:
+                    - link "“일하고 싶어요”…영업익 81% 늘..." [ref=f13e382] [cursor=pointer]:
+                      - /url: /item/news_read.naver?article_id=0000107017&office_id=024&code=000660&sm=entity_id.basic
+                    - link [ref=f13e383] [cursor=pointer]:
+                      - /url: /item/news.naver?code=000660&clusterId=0240000107017
+                      - text: 관련
+                      - emphasis [ref=f13e384]: "2"
+                      - text: 건
+                  - emphasis [ref=f13e385]: 07/21
+                - listitem [ref=f13e386]:
+                  - link "3.2억 이용자 바이낸스, RWA·주식 파생 확장…원화..." [ref=f13e388] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0005550871&office_id=014&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e389]: 07/21
+                - listitem [ref=f13e390]:
+                  - link "코스피, 기관·외국인 매수에 6700선 반등…수출 호..." [ref=f13e392] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0005550869&office_id=014&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e393]: 07/21
+                - listitem [ref=f13e394]:
+                  - link "외인·기관 ‘사자’…코스피, 3.56% 오른 6747 마..." [ref=f13e396] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0000353713&office_id=449&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e397]: 07/21
+                - listitem [ref=f13e398]:
+                  - link "하이닉스 효과·외국인 순매수에 환율 장중 1,471.1..." [ref=f13e400] [cursor=pointer]:
+                    - /url: /item/news_read.naver?article_id=0016206577&office_id=001&code=000660&sm=entity_id.basic
+                  - emphasis [ref=f13e401]: 07/21
+              - link "더보기" [ref=f13e402] [cursor=pointer]:
+                - /url: /item/news.naver?code=000660
+            - generic [ref=f13e403]:
+              - heading [level=4] [ref=f13e404]:
+                - text: 종목토론
+                - link [ref=f13e405] [cursor=pointer]:
+                  - /url: /item/board_write_edit.naver?code=000660&mode=write
+                  - img "글쓰기" [ref=f13e406]
+              - list [ref=f13e407]:
+                - listitem [ref=f13e408]:
+                  - generic [ref=f13e409]:
+                    - link "꾀돌이" [ref=f13e410] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972031
+                    - img "new" [ref=f13e411]
+                  - emphasis [ref=f13e412]: 07/21 16:18
+                - listitem [ref=f13e413]:
+                  - generic [ref=f13e414]:
+                    - link "미선물 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ" [ref=f13e415] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972029
+                    - img "new" [ref=f13e416]
+                  - emphasis [ref=f13e417]: 07/21 16:18
+                - listitem [ref=f13e418]:
+                  - generic [ref=f13e419]:
+                    - link "낼 코스닥 반등 하는날 하닉 핵심부품업..." [ref=f13e420] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972028
+                    - img "new" [ref=f13e421]
+                  - emphasis [ref=f13e422]: 07/21 16:17
+                - listitem [ref=f13e423]:
+                  - generic [ref=f13e424]:
+                    - link "마크롱 900일때" [ref=f13e425] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972025
+                    - img "new" [ref=f13e426]
+                  - emphasis [ref=f13e427]: 07/21 16:17
+                - listitem [ref=f13e428]:
+                  - generic [ref=f13e429]:
+                    - link "이번주에전부다반등시킬겁니다" [ref=f13e430] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972023
+                    - img "new" [ref=f13e431]
+                  - emphasis [ref=f13e432]: 07/21 16:17
+              - list [ref=f13e433]:
+                - listitem [ref=f13e434]:
+                  - generic [ref=f13e435]:
+                    - link "내일 240 갑니다" [ref=f13e436] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972015
+                    - img "new" [ref=f13e437]
+                  - emphasis [ref=f13e438]: 07/21 16:17
+                - listitem [ref=f13e439]:
+                  - generic [ref=f13e440]:
+                    - link "초등학생 눈에도 3개월 차트가 계단식 하락..." [ref=f13e441] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425972006
+                    - img "new" [ref=f13e442]
+                  - emphasis [ref=f13e443]: 07/21 16:17
+                - listitem [ref=f13e444]:
+                  - generic [ref=f13e445]:
+                    - link "좋냐? ㅋㅋㅋ 아무리 짖어도 500,000원 간..." [ref=f13e446] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425971992
+                    - emphasis [ref=f13e447]: "[1]"
+                    - img "new" [ref=f13e448]
+                  - emphasis [ref=f13e449]: 07/21 16:17
+                - listitem [ref=f13e450]:
+                  - generic [ref=f13e451]:
+                    - link "단타만 할던데도" [ref=f13e452] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425971964
+                    - emphasis [ref=f13e453]: "[1]"
+                    - img "new" [ref=f13e454]
+                  - emphasis [ref=f13e455]: 07/21 16:16
+                - listitem [ref=f13e456]:
+                  - generic [ref=f13e457]:
+                    - link "SK하이닉스 언제 빼야할지 고민하신다면 ..." [ref=f13e458] [cursor=pointer]:
+                      - /url: /item/board_read.naver?code=000660&nid=425971963
+                    - img "new" [ref=f13e459]
+                  - emphasis [ref=f13e460]: 07/21 16:16
+              - link "더보기" [ref=f13e461] [cursor=pointer]:
+                - /url: /item/board.naver?code=000660
+          - separator [ref=f13e462]
+          - generic [ref=f13e463]:
+            - heading "기업실적분석" [level=4] [ref=f13e464]
+            - table [ref=f13e466]:
+              - caption [ref=f13e467]: 기업실적분석 테이블
+              - rowgroup [ref=f13e479]:
+                - row [ref=f13e480]:
+                  - columnheader [ref=f13e481]:
+                    - strong [ref=f13e482]: 주요재무정보
+                  - columnheader [ref=f13e483]:
+                    - strong [ref=f13e484]: 최근 연간 실적
+                  - columnheader [ref=f13e485]:
+                    - strong [ref=f13e486]: 최근 분기 실적
+                - row [ref=f13e487]:
+                  - columnheader "2023.12" [ref=f13e488]
+                  - columnheader "2024.12" [ref=f13e489]
+                  - columnheader "2025.12" [ref=f13e490]
+                  - columnheader [ref=f13e491]:
+                    - text: "2026.12"
+                    - emphasis [ref=f13e492]: (E)
+                  - columnheader "2025.03" [ref=f13e493]
+                  - columnheader "2025.06" [ref=f13e494]
+                  - columnheader "2025.09" [ref=f13e495]
+                  - columnheader "2025.12" [ref=f13e496]
+                  - columnheader "2026.03" [ref=f13e497]
+                  - columnheader [ref=f13e498]:
+                    - text: "2026.06"
+                    - emphasis [ref=f13e499]: (E)
+                - row [ref=f13e500]:
+                  - columnheader "IFRS연결" [ref=f13e501]
+                  - columnheader "IFRS연결" [ref=f13e502]
+                  - columnheader "IFRS연결" [ref=f13e503]
+                  - columnheader "IFRS연결" [ref=f13e504]
+                  - columnheader "IFRS연결" [ref=f13e505]
+                  - columnheader "IFRS연결" [ref=f13e506]
+                  - columnheader "IFRS연결" [ref=f13e507]
+                  - columnheader "IFRS연결" [ref=f13e508]
+                  - columnheader "IFRS연결" [ref=f13e509]
+                  - columnheader "IFRS연결" [ref=f13e510]
+              - rowgroup [ref=f13e511]:
+                - row [ref=f13e512]:
+                  - rowheader [ref=f13e513]:
+                    - strong [ref=f13e514]: 매출액
+                  - cell "327,657" [ref=f13e515]
+                  - cell "661,930" [ref=f13e516]
+                  - cell "971,467" [ref=f13e517]
+                  - cell "3,543,680" [ref=f13e518]
+                  - cell "176,391" [ref=f13e519]
+                  - cell "222,320" [ref=f13e520]
+                  - cell "244,489" [ref=f13e521]
+                  - cell "328,267" [ref=f13e522]
+                  - cell "525,763" [ref=f13e523]
+                  - cell "839,264" [ref=f13e524]
+                - row [ref=f13e525]:
+                  - rowheader [ref=f13e526]:
+                    - strong [ref=f13e527]: 영업이익
+                  - cell [ref=f13e528]:
+                    - emphasis [ref=f13e529]: "-77,303"
+                  - cell "234,673" [ref=f13e530]
+                  - cell "472,063" [ref=f13e531]
+                  - cell "2,728,836" [ref=f13e532]
+                  - cell "74,405" [ref=f13e533]
+                  - cell "92,129" [ref=f13e534]
+                  - cell "113,834" [ref=f13e535]
+                  - cell "191,696" [ref=f13e536]
+                  - cell "376,103" [ref=f13e537]
+                  - cell "641,632" [ref=f13e538]
+                - row [ref=f13e539]:
+                  - rowheader [ref=f13e540]:
+                    - strong [ref=f13e541]: 당기순이익
+                  - cell [ref=f13e542]:
+                    - emphasis [ref=f13e543]: "-91,375"
+                  - cell "197,969" [ref=f13e544]
+                  - cell "429,479" [ref=f13e545]
+                  - cell "2,281,089" [ref=f13e546]
+                  - cell "81,082" [ref=f13e547]
+                  - cell "69,962" [ref=f13e548]
+                  - cell "125,975" [ref=f13e549]
+                  - cell "152,460" [ref=f13e550]
+                  - cell "403,459" [ref=f13e551]
+                  - cell "515,812" [ref=f13e552]
+                - row [ref=f13e553]:
+                  - rowheader [ref=f13e554]:
+                    - strong [ref=f13e555]: 영업이익률
+                  - cell [ref=f13e556]:
+                    - emphasis [ref=f13e557]: "-23.59"
+                  - cell "35.45" [ref=f13e558]
+                  - cell "48.59" [ref=f13e559]
+                  - cell "77.01" [ref=f13e560]
+                  - cell "42.18" [ref=f13e561]
+                  - cell "41.44" [ref=f13e562]
+                  - cell "46.56" [ref=f13e563]
+                  - cell "58.40" [ref=f13e564]
+                  - cell "71.54" [ref=f13e565]
+                  - cell "76.45" [ref=f13e566]
+                - row [ref=f13e567]:
+                  - rowheader [ref=f13e568]:
+                    - strong [ref=f13e569]: 순이익률
+                  - cell [ref=f13e570]:
+                    - emphasis [ref=f13e571]: "-27.89"
+                  - cell "29.91" [ref=f13e572]
+                  - cell "44.21" [ref=f13e573]
+                  - cell "64.37" [ref=f13e574]
+                  - cell "45.97" [ref=f13e575]
+                  - cell "31.47" [ref=f13e576]
+                  - cell "51.53" [ref=f13e577]
+                  - cell "46.44" [ref=f13e578]
+                  - cell "76.74" [ref=f13e579]
+                  - cell "61.46" [ref=f13e580]
+                - row [ref=f13e581]:
+                  - rowheader [ref=f13e582]:
+                    - strong [ref=f13e583]: ROE(지배주주)
+                  - cell [ref=f13e584]:
+                    - emphasis [ref=f13e585]: "-15.61"
+                  - cell "31.06" [ref=f13e586]
+                  - cell "44.15" [ref=f13e587]
+                  - cell "96.86" [ref=f13e588]
+                  - cell "37.94" [ref=f13e589]
+                  - cell "39.27" [ref=f13e590]
+                  - cell "43.20" [ref=f13e591]
+                  - cell "44.15" [ref=f13e592]
+                  - cell "61.16" [ref=f13e593]
+                  - cell [ref=f13e594]
+                - row [ref=f13e595]:
+                  - rowheader [ref=f13e596]:
+                    - strong [ref=f13e597]: 부채비율
+                  - cell "87.52" [ref=f13e598]
+                  - cell "62.15" [ref=f13e599]
+                  - cell "45.95" [ref=f13e600]
+                  - cell [ref=f13e601]
+                  - cell "52.24" [ref=f13e602]
+                  - cell "48.13" [ref=f13e603]
+                  - cell "48.43" [ref=f13e604]
+                  - cell "45.95" [ref=f13e605]
+                  - cell "35.56" [ref=f13e606]
+                  - cell [ref=f13e607]
+                - row [ref=f13e608]:
+                  - rowheader [ref=f13e609]:
+                    - strong [ref=f13e610]: 당좌비율
+                  - cell "75.97" [ref=f13e611]
+                  - cell "113.24" [ref=f13e612]
+                  - cell "132.97" [ref=f13e613]
+                  - cell [ref=f13e614]
+                  - cell "104.14" [ref=f13e615]
+                  - cell "117.87" [ref=f13e616]
+                  - cell "134.90" [ref=f13e617]
+                  - cell "132.97" [ref=f13e618]
+                  - cell "185.53" [ref=f13e619]
+                  - cell [ref=f13e620]
+                - row [ref=f13e621]:
+                  - rowheader [ref=f13e622]:
+                    - strong [ref=f13e623]: 유보율
+                  - cell "1,397.12" [ref=f13e624]
+                  - cell "1,911.20" [ref=f13e625]
+                  - cell "3,158.59" [ref=f13e626]
+                  - cell [ref=f13e627]
+                  - cell "2,114.39" [ref=f13e628]
+                  - cell "2,298.84" [ref=f13e629]
+                  - cell "2,636.87" [ref=f13e630]
+                  - cell "3,158.59" [ref=f13e631]
+                  - cell "4,299.39" [ref=f13e632]
+                  - cell [ref=f13e633]
+                - row [ref=f13e634]:
+                  - rowheader [ref=f13e635]:
+                    - strong [ref=f13e636]: EPS(원)
+                  - cell [ref=f13e637]:
+                    - emphasis [ref=f13e638]: "-12,517"
+                  - cell "27,182" [ref=f13e639]
+                  - cell "58,955" [ref=f13e640]
+                  - cell "314,787" [ref=f13e641]
+                  - cell "11,136" [ref=f13e642]
+                  - cell "9,612" [ref=f13e643]
+                  - cell "17,301" [ref=f13e644]
+                  - cell "20,906" [ref=f13e645]
+                  - cell "56,066" [ref=f13e646]
+                  - cell "74,781" [ref=f13e647]
+                - row [ref=f13e648]:
+                  - rowheader [ref=f13e649]:
+                    - strong [ref=f13e650]: PER(배)
+                  - cell [ref=f13e651]:
+                    - emphasis [ref=f13e652]: "-11.30"
+                  - cell "6.40" [ref=f13e653]
+                  - cell "11.04" [ref=f13e654]
+                  - cell "5.60" [ref=f13e655]
+                  - cell "5.34" [ref=f13e656]
+                  - cell "7.37" [ref=f13e657]
+                  - cell "7.09" [ref=f13e658]
+                  - cell "11.04" [ref=f13e659]
+                  - cell "7.80" [ref=f13e660]
+                  - cell [ref=f13e661]
+                - row [ref=f13e662]:
+                  - rowheader [ref=f13e663]:
+                    - strong [ref=f13e664]: BPS(원)
+                  - cell "77,752" [ref=f13e665]
+                  - cell "107,256" [ref=f13e666]
+                  - cell "171,751" [ref=f13e667]
+                  - cell "480,916" [ref=f13e668]
+                  - cell "117,947" [ref=f13e669]
+                  - cell "126,196" [ref=f13e670]
+                  - cell "144,811" [ref=f13e671]
+                  - cell "171,751" [ref=f13e672]
+                  - cell "231,952" [ref=f13e673]
+                  - cell [ref=f13e674]
+                - row [ref=f13e675]:
+                  - rowheader [ref=f13e676]:
+                    - strong [ref=f13e677]: PBR(배)
+                  - cell "1.82" [ref=f13e678]
+                  - cell "1.62" [ref=f13e679]
+                  - cell "3.79" [ref=f13e680]
+                  - cell "3.67" [ref=f13e681]
+                  - cell "1.62" [ref=f13e682]
+                  - cell "2.31" [ref=f13e683]
+                  - cell "2.40" [ref=f13e684]
+                  - cell "3.79" [ref=f13e685]
+                  - cell "3.48" [ref=f13e686]
+                  - cell [ref=f13e687]
+                - row [ref=f13e688]:
+                  - rowheader [ref=f13e689]:
+                    - strong [ref=f13e690]: 주당배당금(원)
+                  - cell "1,200" [ref=f13e691]
+                  - cell "2,204" [ref=f13e692]
+                  - cell "3,000" [ref=f13e693]
+                  - cell "7,316" [ref=f13e694]
+                  - cell "375" [ref=f13e695]
+                  - cell "375" [ref=f13e696]
+                  - cell "375" [ref=f13e697]
+                  - cell "1,875" [ref=f13e698]
+                  - cell "375" [ref=f13e699]
+                  - cell [ref=f13e700]
+                - row [ref=f13e701]:
+                  - rowheader [ref=f13e702]:
+                    - strong [ref=f13e703]: 시가배당률(%)
+                  - cell "0.85" [ref=f13e704]
+                  - cell "1.27" [ref=f13e705]
+                  - cell "0.46" [ref=f13e706]
+                  - cell [ref=f13e707]
+                  - cell "0.20" [ref=f13e708]
+                  - cell "0.13" [ref=f13e709]
+                  - cell "0.11" [ref=f13e710]
+                  - cell "0.29" [ref=f13e711]
+                  - cell "0.05" [ref=f13e712]
+                  - cell [ref=f13e713]
+                - row [ref=f13e714]:
+                  - rowheader [ref=f13e715]:
+                    - strong [ref=f13e716]: 배당성향(%)
+                  - cell [ref=f13e717]:
+                    - emphasis [ref=f13e718]: "-9.06"
+                  - cell "7.68" [ref=f13e719]
+                  - cell "4.88" [ref=f13e720]
+                  - cell [ref=f13e721]
+                  - cell "3.19" [ref=f13e722]
+                  - cell "3.70" [ref=f13e723]
+                  - cell "2.06" [ref=f13e724]
+                  - cell "8.66" [ref=f13e725]
+                  - cell "0.66" [ref=f13e726]
+                  - cell [ref=f13e727]
+            - list [ref=f13e729]:
+              - listitem [ref=f13e730]: 분기 실적은 해당 분기까지의 누적 실적에서 직전 분기까지의 누적 실적을 차감하는 방식으로 계산되므로,기업에서 공시한 분기 실적과 차이가 있을 수 있습니다.
+              - listitem [ref=f13e731]:
+                - text: 컨센서스(
+                - emphasis [ref=f13e732]: E
+                - text: ") : 최근 3개월간 증권사에서 발표한 전망치의 평균값입니다."
+            - link "더보기" [ref=f13e734] [cursor=pointer]:
+              - /url: /item/coinfo.naver?code=000660&target=finsum_more
+          - separator [ref=f13e735]
+          - generic [ref=f13e736]:
+            - heading [level=4] [ref=f13e737]:
+              - text: 동종업종비교
+              - emphasis [ref=f13e738]:
+                - text: "(업종명 :"
+                - link "반도체와반도체장비" [ref=f13e739] [cursor=pointer]:
+                  - /url: /sise/sise_group_detail.naver?type=upjong&no=278
+                - text: "｜재무정보: 2026.03 분기 기준)"
+            - table [ref=f13e740]:
+              - caption [ref=f13e741]: 동종업종비교
+              - rowgroup [ref=f13e742]:
+                - row [ref=f13e743]:
+                  - columnheader "종목명" [ref=f13e744]
+                  - columnheader [ref=f13e745]:
+                    - link [ref=f13e746] [cursor=pointer]:
+                      - /url: /item/main.naver?code=000660
+                      - text: SK하이닉스*
+                      - emphasis [ref=f13e747]: "000660"
+                  - columnheader [ref=f13e748]:
+                    - link [ref=f13e749] [cursor=pointer]:
+                      - /url: /item/main.naver?code=005930
+                      - text: 삼성전자*
+                      - emphasis [ref=f13e750]: "005930"
+                  - columnheader [ref=f13e751]:
+                    - link [ref=f13e752] [cursor=pointer]:
+                      - /url: /item/main.naver?code=402340
+                      - text: SK스퀘어*
+                      - emphasis [ref=f13e753]: "402340"
+                  - columnheader [ref=f13e754]:
+                    - link [ref=f13e755] [cursor=pointer]:
+                      - /url: /item/main.naver?code=042700
+                      - text: 한미반도체*
+                      - emphasis [ref=f13e756]: "042700"
+                  - columnheader [ref=f13e757]:
+                    - link [ref=f13e758] [cursor=pointer]:
+                      - /url: /item/main.naver?code=036930
+                      - text: 주성엔지니어링*
+                      - emphasis [ref=f13e759]: "036930"
+              - rowgroup [ref=f13e760]:
+                - row [ref=f13e761]:
+                  - rowheader "현재가" [ref=f13e762]
+                  - cell "1,836,000" [ref=f13e763]
+                  - cell "259,000" [ref=f13e764]
+                  - cell "1,253,000" [ref=f13e765]
+                  - cell "224,000" [ref=f13e766]
+                  - cell "169,200" [ref=f13e767]
+                - row [ref=f13e768]:
+                  - rowheader "전일대비" [ref=f13e769]
+                  - cell [ref=f13e770]:
+                    - emphasis [ref=f13e771]: 상향 72,000
+                  - cell [ref=f13e772]:
+                    - emphasis [ref=f13e773]: 상향 15,000
+                  - cell [ref=f13e774]:
+                    - emphasis [ref=f13e775]: 상향 76,000
+                  - cell [ref=f13e776]:
+                    - emphasis [ref=f13e777]: 상향 2,000
+                  - cell [ref=f13e778]:
+                    - emphasis [ref=f13e779]: 상향 1,300
+                - row [ref=f13e780]:
+                  - rowheader "등락률" [ref=f13e781]
+                  - cell [ref=f13e782]:
+                    - emphasis [ref=f13e783]: 상향 +4.08%
+                  - cell [ref=f13e784]:
+                    - emphasis [ref=f13e785]: 상향 +6.15%
+                  - cell [ref=f13e786]:
+                    - emphasis [ref=f13e787]: 상향 +6.46%
+                  - cell [ref=f13e788]:
+                    - emphasis [ref=f13e789]: 상향 +0.90%
+                  - cell [ref=f13e790]:
+                    - emphasis [ref=f13e791]: 상향 +0.77%
+                - row [ref=f13e792]:
+                  - rowheader "시가총액(억)" [ref=f13e793]
+                  - cell "13,085,215" [ref=f13e794]
+                  - cell "15,141,861" [ref=f13e795]
+                  - cell "1,653,438" [ref=f13e796]
+                  - cell "213,499" [ref=f13e797]
+                  - cell "78,646" [ref=f13e798]
+                - row [ref=f13e799]:
+                  - rowheader "외국인비율(%)" [ref=f13e800]
+                  - cell "52.40" [ref=f13e801]
+                  - cell "46.59" [ref=f13e802]
+                  - cell "45.63" [ref=f13e803]
+                  - cell "8.14" [ref=f13e804]
+                  - cell "6.84" [ref=f13e805]
+                - row [ref=f13e806]:
+                  - rowheader "매출액(억)" [ref=f13e807]
+                  - cell "525,763" [ref=f13e808]
+                  - cell "1,338,734" [ref=f13e809]
+                  - cell "86,314" [ref=f13e810]
+                  - cell "509" [ref=f13e811]
+                  - cell "549" [ref=f13e812]
+                - row [ref=f13e813]:
+                  - rowheader "영업이익(억)" [ref=f13e814]
+                  - cell "376,103" [ref=f13e815]
+                  - cell "572,328" [ref=f13e816]
+                  - cell "82,783" [ref=f13e817]
+                  - cell "85" [ref=f13e818]
+                  - cell "-70" [ref=f13e819]
+                - row [ref=f13e820]:
+                  - rowheader "조정영업이익(억)" [ref=f13e821]
+                  - cell "376,103" [ref=f13e822]
+                  - cell "572,328" [ref=f13e823]
+                  - cell "82,783" [ref=f13e824]
+                  - cell "85" [ref=f13e825]
+                  - cell "-70" [ref=f13e826]
+                - row [ref=f13e827]:
+                  - rowheader "영업이익증가율(%)" [ref=f13e828]
+                  - cell "96.20" [ref=f13e829]
+                  - cell "185.11" [ref=f13e830]
+                  - cell "167.17" [ref=f13e831]
+                  - cell "-69.39" [ref=f13e832]
+                  - cell "44.11" [ref=f13e833]
+                - row [ref=f13e834]:
+                  - rowheader "당기순이익(억)" [ref=f13e835]
+                  - cell "403,459" [ref=f13e836]
+                  - cell "472,253" [ref=f13e837]
+                  - cell "83,747" [ref=f13e838]
+                  - cell "190" [ref=f13e839]
+                  - cell "-12" [ref=f13e840]
+                - row [ref=f13e841]:
+                  - rowheader "주당순이익(원)" [ref=f13e842]
+                  - cell "56,066.12" [ref=f13e843]
+                  - cell "6,992.86" [ref=f13e844]
+                  - cell "63,450.44" [ref=f13e845]
+                  - cell "199.68" [ref=f13e846]
+                  - cell "-25.36" [ref=f13e847]
+                - row [ref=f13e848]:
+                  - rowheader "ROE(%)" [ref=f13e849]
+                  - cell "61.16" [ref=f13e850]
+                  - cell "19.16" [ref=f13e851]
+                  - cell "55.09" [ref=f13e852]
+                  - cell "30.80" [ref=f13e853]
+                  - cell "1.16" [ref=f13e854]
+                - row [ref=f13e855]:
+                  - rowheader "PER(%)" [ref=f13e856]
+                  - cell "17.74" [ref=f13e857]
+                  - cell "20.93" [ref=f13e858]
+                  - cell "10.64" [ref=f13e859]
+                  - cell "119.98" [ref=f13e860]
+                  - cell "1,175.00" [ref=f13e861]
+                - row [ref=f13e862]:
+                  - rowheader "PBR(배)" [ref=f13e863]
+                  - cell "7.92" [ref=f13e864]
+                  - cell "3.60" [ref=f13e865]
+                  - cell "4.58" [ref=f13e866]
+                  - cell "33.41" [ref=f13e867]
+                  - cell "13.18" [ref=f13e868]
+            - link "더보기" [ref=f13e869] [cursor=pointer]:
+              - /url: /sise/sise_group_detail.naver?type=upjong&no=278
+          - separator [ref=f13e870]
+          - list [ref=f13e872]:
+            - listitem [ref=f13e873]: PER, PBR 수치는 최근 4분기 기준입니다.
+            - listitem [ref=f13e874]:
+              - emphasis [ref=f13e875]: "*"
+              - text: 종목은 IFRS (연결) 회계기준을 적용한 종목입니다. (최근 분기보고서 기준이며, 기준 분기는 업종마다 다를 수 있습니다.)
+            - listitem [ref=f13e876]: IFRS (연결) 적용 종목의 당기순이익 및 가치지표(주당순이익, PER, PBR)는 지배주주지분을 기준으로 산출하였습니다.
+        - generic [ref=f13e877]:
+          - generic [ref=f13e878]:
+            - generic [ref=f13e879]:
+              - link "투자정보" [ref=f13e880] [cursor=pointer]:
+                - /url: javascript:showArea('tab_invest', 'tab tab_invest1', 'tab_con1', 'tab_con2')
+              - link "호가10단계" [ref=f13e881] [cursor=pointer]:
+                - /url: javascript:showArea('tab_invest', 'tab tab_invest2', 'tab_con2', 'tab_con1')
+            - generic [ref=f13e882]:
+              - heading "투자정보" [level=3] [ref=f13e883]
+              - table [ref=f13e885]:
+                - caption [ref=f13e886]: 시가총액
+                - rowgroup [ref=f13e887]:
+                  - row [ref=f13e888]:
+                    - rowheader "시가총액" [ref=f13e889]
+                    - cell [ref=f13e890]:
+                      - emphasis [ref=f13e891]: 1,308조 5,215
+                      - text: 억원
+                  - row [ref=f13e892]:
+                    - rowheader [ref=f13e893]:
+                      - link "시가총액순위" [ref=f13e894] [cursor=pointer]:
+                        - /url: /sise/sise_market_sum.naver
+                    - cell [ref=f13e895]:
+                      - text: 코스피
+                      - emphasis [ref=f13e896]: "2"
+                      - text: 위
+                  - row [ref=f13e897]:
+                    - rowheader "상장주식수" [ref=f13e898]
+                    - cell [ref=f13e899]:
+                      - emphasis [ref=f13e900]: 712,702,365
+                  - row [ref=f13e901]:
+                    - rowheader "액면가l매매단위" [ref=f13e902]
+                    - cell [ref=f13e903]:
+                      - emphasis [ref=f13e904]: 5,000
+                      - text: 원 l
+                      - emphasis [ref=f13e905]: "1"
+                      - text: 주
+              - table [ref=f13e907]:
+                - caption [ref=f13e908]: 외국인한도주식수
+                - rowgroup [ref=f13e909]:
+                  - row [ref=f13e910]:
+                    - rowheader "외국인한도주식수(A)" [ref=f13e911]
+                    - cell [ref=f13e912]:
+                      - emphasis [ref=f13e913]: 712,702,365
+                  - row [ref=f13e914]:
+                    - rowheader "외국인보유주식수(B)" [ref=f13e915]
+                    - cell [ref=f13e916]:
+                      - emphasis [ref=f13e917]: 373,465,582
+                  - row [ref=f13e918]:
+                    - rowheader [ref=f13e919]:
+                      - strong [ref=f13e920]: 외국인소진율(B/A)
+                      - link [ref=f13e921] [cursor=pointer]:
+                        - /url: javascript:togglePannel('helpPannel0');
+                        - img "외국인소진율(B/A) 상세설명" [ref=f13e922]
+                    - cell [ref=f13e923]:
+                      - emphasis [ref=f13e924]: 52.40%
+              - table [ref=f13e926]:
+                - caption [ref=f13e927]: 투자의견
+                - rowgroup [ref=f13e928]:
+                  - row [ref=f13e929]:
+                    - rowheader "투자의견l목표주가" [ref=f13e930]
+                    - cell [ref=f13e931]:
+                      - generic [ref=f13e932]:
+                        - emphasis [ref=f13e933]: "4.00"
+                        - text: 매수
+                      - text: l
+                      - emphasis [ref=f13e934]: 3,547,917
+                  - row [ref=f13e935]:
+                    - rowheader "52주최고l최저" [ref=f13e936]
+                    - cell [ref=f13e937]:
+                      - emphasis [ref=f13e938]: 2,987,000
+                      - text: l
+                      - emphasis [ref=f13e939]: 245,000
+              - table [ref=f13e941]:
+                - caption [ref=f13e942]: PER/EPS
+                - rowgroup [ref=f13e943]:
+                  - row [ref=f13e944]:
+                    - rowheader [ref=f13e945]:
+                      - text: PERlEPS(2026.03)
+                      - link [ref=f13e946] [cursor=pointer]:
+                        - /url: javascript:togglePannel('helpPannel1');
+                        - img "추정PER EPS 상세설명" [ref=f13e947]
+                    - cell [ref=f13e948]:
+                      - emphasis [ref=f13e949]: "17.74"
+                      - text: 배 l
+                      - emphasis [ref=f13e950]: 103,521
+                      - text: 원
+                - rowgroup [ref=f13e951]:
+                  - row [ref=f13e952]:
+                    - rowheader [ref=f13e953]:
+                      - text: 추정PERlEPS
+                      - link [ref=f13e954] [cursor=pointer]:
+                        - /url: javascript:togglePannel('helpPannel3');
+                        - img "추정PER EPS 상세설명" [ref=f13e955]
+                    - cell [ref=f13e956]:
+                      - emphasis [ref=f13e957]: "6.00"
+                      - text: 배 l
+                      - emphasis [ref=f13e958]: 314,787
+                      - text: 원
+                  - row [ref=f13e959]:
+                    - rowheader [ref=f13e960]:
+                      - text: PBRlBPS (2026.03)
+                      - link [ref=f13e961] [cursor=pointer]:
+                        - /url: javascript:togglePannel('helpPannel4');
+                        - img "PBR | BPS 상세설명" [ref=f13e962]
+                    - cell [ref=f13e963]:
+                      - emphasis [ref=f13e964]: "7.92"
+                      - text: 배 l
+                      - emphasis [ref=f13e965]: 231,952
+                      - text: 원
+                  - row [ref=f13e966]:
+                    - rowheader [ref=f13e967]:
+                      - text: 배당수익률l2026.02
+                      - link [ref=f13e968] [cursor=pointer]:
+                        - /url: javascript:togglePannel('helpPannel5');
+                        - img "배당수익률 상세설명" [ref=f13e969]
+                    - cell [ref=f13e970]:
+                      - emphasis [ref=f13e971]: "0.16"
+                      - text: "%"
+              - table [ref=f13e973]:
+                - caption [ref=f13e974]: 동일업종 PER
+                - rowgroup [ref=f13e975]:
+                  - row [ref=f13e976]:
+                    - rowheader [ref=f13e977]:
+                      - link "동일업종 PER" [ref=f13e978] [cursor=pointer]:
+                        - /url: /sise/sise_group_detail.naver?type=upjong&no=278
+                    - cell [ref=f13e979]:
+                      - emphasis [ref=f13e980]: "16.85"
+                      - text: 배
+                  - row [ref=f13e981]:
+                    - rowheader [ref=f13e982]:
+                      - link "동일업종 등락률" [ref=f13e983] [cursor=pointer]:
+                        - /url: /sise/sise_group_detail.naver?type=upjong&no=278
+                    - cell [ref=f13e984]:
+                      - emphasis [ref=f13e985]: +5.16%
+          - generic [ref=f13e987]:
+            - link "최근조회" [ref=f13e988] [cursor=pointer]:
+              - /url: javascript:showRecent('tab_search', 'tab tab_search1', '000660', 'recent')
+            - link "MY STOCK" [ref=f13e989] [cursor=pointer]:
+              - /url: javascript:showRecent('tab_search', 'tab tab_search2', '000660', 'mystock')
+            - heading "최근조회" [level=2] [ref=f13e990]
+          - generic [ref=f13e991]:
+            - heading "인기검색종목" [level=2] [ref=f13e992]
+            - generic [ref=f13e993]:
+              - link "코스피" [ref=f13e994] [cursor=pointer]:
+                - /url: javascript:showArea('tab_fav', 'tab tab_fav1', 'fav_kospi', 'fav_kosdaq')
+              - link "코스닥" [ref=f13e995] [cursor=pointer]:
+                - /url: javascript:showArea('tab_fav', 'tab tab_fav2', 'fav_kosdaq', 'fav_kospi')
+              - heading "코스피" [level=3] [ref=f13e996]
+            - table [ref=f13e998]:
+              - caption [ref=f13e999]: 코스피 인기검색종목
+              - rowgroup [ref=f13e1004]:
+                - row [ref=f13e1005]:
+                  - columnheader "업체명" [ref=f13e1006]
+                  - columnheader "거래량" [ref=f13e1007]
+                  - columnheader "전일비" [ref=f13e1008]
+              - rowgroup [ref=f13e1009]:
+                - row [ref=f13e1010]:
+                  - rowheader [ref=f13e1011]:
+                    - link "삼성전자" [ref=f13e1012] [cursor=pointer]:
+                      - /url: /item/main.naver?code=005930
+                  - cell "259,000" [ref=f13e1013]
+                  - cell [ref=f13e1014]:
+                    - emphasis [ref=f13e1015]: 상향 15,000
+                - row [ref=f13e1016]:
+                  - rowheader [ref=f13e1017]:
+                    - link "SK하이닉스" [ref=f13e1018] [cursor=pointer]:
+                      - /url: /item/main.naver?code=000660
+                  - cell "1,836,000" [ref=f13e1019]
+                  - cell [ref=f13e1020]:
+                    - emphasis [ref=f13e1021]: 상향 72,000
+                - row [ref=f13e1022]:
+                  - rowheader [ref=f13e1023]:
+                    - link "현대차" [ref=f13e1024] [cursor=pointer]:
+                      - /url: /item/main.naver?code=005380
+                  - cell "399,000" [ref=f13e1025]
+                  - cell [ref=f13e1026]:
+                    - emphasis [ref=f13e1027]: 보합
+                - row [ref=f13e1028]:
+                  - rowheader [ref=f13e1029]:
+                    - link "삼성전기" [ref=f13e1030] [cursor=pointer]:
+                      - /url: /item/main.naver?code=009150
+                  - cell "1,310,000" [ref=f13e1031]
+                  - cell [ref=f13e1032]:
+                    - emphasis [ref=f13e1033]: 상향 35,000
+                - row [ref=f13e1034]:
+                  - rowheader [ref=f13e1035]:
+                    - link "SK스퀘어" [ref=f13e1036] [cursor=pointer]:
+                      - /url: /item/main.naver?code=402340
+                  - cell "1,253,000" [ref=f13e1037]
+                  - cell [ref=f13e1038]:
+                    - emphasis [ref=f13e1039]: 상향 76,000
+                - row [ref=f13e1040]:
+                  - cell [ref=f13e1041]
+                - row [ref=f13e1042]:
+                  - rowheader [ref=f13e1043]:
+                    - link "NAVER" [ref=f13e1044] [cursor=pointer]:
+                      - /url: /item/main.naver?code=035420
+                  - cell "193,000" [ref=f13e1045]
+                  - cell [ref=f13e1046]:
+                    - emphasis [ref=f13e1047]: 상향 7,100
+                - row [ref=f13e1048]:
+                  - rowheader [ref=f13e1049]:
+                    - link "두산에너빌리.." [ref=f13e1050] [cursor=pointer]:
+                      - /url: /item/main.naver?code=034020
+                  - cell "66,800" [ref=f13e1051]
+                  - cell [ref=f13e1052]:
+                    - emphasis [ref=f13e1053]: 상향 2,000
+                - row [ref=f13e1054]:
+                  - rowheader [ref=f13e1055]:
+                    - link "LG전자" [ref=f13e1056] [cursor=pointer]:
+                      - /url: /item/main.naver?code=066570
+                  - cell "173,200" [ref=f13e1057]
+                  - cell [ref=f13e1058]:
+                    - emphasis [ref=f13e1059]: 상향 6,000
+                - row [ref=f13e1060]:
+                  - rowheader [ref=f13e1061]:
+                    - link "한화오션" [ref=f13e1062] [cursor=pointer]:
+                      - /url: /item/main.naver?code=042660
+                  - cell "81,900" [ref=f13e1063]
+                  - cell [ref=f13e1064]:
+                    - emphasis [ref=f13e1065]: 하향 1,300
+                - row [ref=f13e1066]:
+                  - rowheader [ref=f13e1067]:
+                    - link "삼성전자우" [ref=f13e1068] [cursor=pointer]:
+                      - /url: /item/main.naver?code=005935
+                  - cell "181,000" [ref=f13e1069]
+                  - cell [ref=f13e1070]:
+                    - emphasis [ref=f13e1071]: 상향 11,800
+          - generic [ref=f13e1072]:
+            - heading "시세정보바로가기" [level=2] [ref=f13e1073]
+            - heading "KRX 주요시세" [level=3] [ref=f13e1074]
+            - paragraph [ref=f13e1075]:
+              - link "코스피" [ref=f13e1076] [cursor=pointer]:
+                - /url: /sise/sise_index.naver?code=KOSPI
+              - link "코스닥" [ref=f13e1077] [cursor=pointer]:
+                - /url: /sise/sise_index.naver?code=KOSDAQ
+              - link "선물" [ref=f13e1078] [cursor=pointer]:
+                - /url: /sise/sise_index.naver?code=FUT
+              - link "코넥스" [ref=f13e1079] [cursor=pointer]:
+                - /url: /sise/konex.naver
+              - link "코스피100" [ref=f13e1080] [cursor=pointer]:
+                - /url: /sise/sise_index.naver?code=KPI100
+              - link "코스피200" [ref=f13e1081] [cursor=pointer]:
+                - /url: /sise/sise_index.naver?code=KPI200
+              - link "ETF" [ref=f13e1082] [cursor=pointer]:
+                - /url: /sise/etf.naver
+              - link [ref=f13e1083] [cursor=pointer]:
+                - /url: /sise/sise_index.naver?code=KVALUE
+                - strong [ref=f13e1084]: 코리아밸류업
+              - link [ref=f13e1085] [cursor=pointer]:
+                - /url: /sise/sise_group.naver?type=upjong
+                - strong [ref=f13e1086]: 업종별
+              - link "테마별" [ref=f13e1087] [cursor=pointer]:
+                - /url: /sise/theme.naver
+              - link [ref=f13e1088] [cursor=pointer]:
+                - /url: /sise/sise_upper.naver
+                - strong [ref=f13e1089]: 상한가
+              - link "하한가" [ref=f13e1090] [cursor=pointer]:
+                - /url: /sise/sise_lower.naver
+              - link "상승" [ref=f13e1091] [cursor=pointer]:
+                - /url: /sise/sise_rise.naver
+              - link "보합" [ref=f13e1092] [cursor=pointer]:
+                - /url: /sise/sise_steady.naver
+              - link "하락" [ref=f13e1093] [cursor=pointer]:
+                - /url: /sise/sise_fall.naver
+              - link "거래상위" [ref=f13e1094] [cursor=pointer]:
+                - /url: /sise/sise_quant.naver
+              - link [ref=f13e1095] [cursor=pointer]:
+                - /url: /sise/sise_quant_high.naver
+                - strong [ref=f13e1096]: 급증
+              - link "급감" [ref=f13e1097] [cursor=pointer]:
+                - /url: /sise/sise_quant_low.naver
+              - link "고가대비급락" [ref=f13e1098] [cursor=pointer]:
+                - /url: /sise/sise_high_down.naver
+              - link "저가대비급등" [ref=f13e1099] [cursor=pointer]:
+                - /url: /sise/sise_low_up.naver
+            - paragraph [ref=f13e1100]:
+              - link [ref=f13e1101] [cursor=pointer]:
+                - /url: /sise/sise_market_sum.naver
+                - strong [ref=f13e1102]: 시가총액상위
+              - link "외국인보유현황" [ref=f13e1103] [cursor=pointer]:
+                - /url: /sise/sise_foreign_hold.naver
+              - link "외국인매매" [ref=f13e1104] [cursor=pointer]:
+                - /url: /sise/sise_deal_rank.naver
+              - link "기관매매" [ref=f13e1105] [cursor=pointer]:
+                - /url: /sise/sise_deal_rank.naver?investor_gubun=1000
+              - link "프로그램매매" [ref=f13e1106] [cursor=pointer]:
+                - /url: /sise/sise_program.naver
+              - link "관리·감리종목" [ref=f13e1107] [cursor=pointer]:
+                - /url: /sise/management.naver
+              - link "신규상장종목" [ref=f13e1108] [cursor=pointer]:
+                - /url: /sise/sise_new_stock.naver
+              - link "증시자금동향" [ref=f13e1109] [cursor=pointer]:
+                - /url: /sise/sise_deposit.naver
+              - link "투자자별매매동향" [ref=f13e1110] [cursor=pointer]:
+                - /url: /sise/sise_trans_style.naver
+            - paragraph [ref=f13e1111]:
+              - link "갭상승 종목" [ref=f13e1112] [cursor=pointer]:
+                - /url: /sise/item_gap.naver
+              - link "골든크로스 종목" [ref=f13e1113] [cursor=pointer]:
+                - /url: /sise/item_gold.naver
+              - link "이격도과열종목" [ref=f13e1114] [cursor=pointer]:
+                - /url: /sise/item_igyuk.naver
+              - link "투자심리과열종목" [ref=f13e1115] [cursor=pointer]:
+                - /url: /sise/item_overheating_1.naver
+              - link "상대강도과열종목" [ref=f13e1116] [cursor=pointer]:
+                - /url: /sise/item_overheating_2.naver
+            - heading "NXT 주요시세" [level=3] [ref=f13e1117]
+            - paragraph [ref=f13e1118]:
+              - link "시가총액" [ref=f13e1119] [cursor=pointer]:
+                - /url: /sise/nxt_sise_market_sum.naver
+              - link "거래상위" [ref=f13e1120] [cursor=pointer]:
+                - /url: /sise/nxt_sise_quant.naver
+              - link "상승" [ref=f13e1121] [cursor=pointer]:
+                - /url: /sise/nxt_sise_rise.naver
+              - link "하락" [ref=f13e1122] [cursor=pointer]:
+                - /url: /sise/nxt_sise_fall.naver
+            - link "더보기" [ref=f13e1123] [cursor=pointer]:
+              - /url: /sise/
+          - generic [ref=f13e1124]:
+            - heading "공지사항" [level=2] [ref=f13e1125]
+            - list [ref=f13e1126]:
+              - listitem [ref=f13e1127]:
+                - link "새로운 Npay 증권 PC 서비스..." [ref=f13e1128] [cursor=pointer]:
+                  - /url: https://finance.naver.com/notice.naver?noticeId=28157
+              - listitem [ref=f13e1129]:
+                - link:
+                  - /url: ""
+              - listitem [ref=f13e1130]:
+                - link:
+                  - /url: ""
+              - listitem [ref=f13e1131]:
+                - link:
+                  - /url: ""
+              - listitem [ref=f13e1132]:
+                - link:
+                  - /url: ""
+            - link "더보기" [ref=f13e1133] [cursor=pointer]:
+              - /url: /notice.naver
+    - generic [ref=f13e1134]:
+      - list [ref=f13e1135]:
+        - listitem [ref=f13e1136]:
+          - link "이용약관" [ref=f13e1137] [cursor=pointer]:
+            - /url: https://new-m.pay.naver.com/member/terms-policy/naver-financial-service
+        - listitem [ref=f13e1138]:
+          - link [ref=f13e1139] [cursor=pointer]:
+            - /url: https://new-m.pay.naver.com/member/terms-policy/privacy
+            - strong [ref=f13e1140]: 개인정보처리방침
+        - listitem [ref=f13e1141]:
+          - link "게시판 운영원칙" [ref=f13e1142] [cursor=pointer]:
+            - /url: /rules.naver
+        - listitem [ref=f13e1143]:
+          - link "증권 고객센터" [ref=f13e1144] [cursor=pointer]:
+            - /url: https://help.pay.naver.com/faq/alias/finance.help
+      - paragraph [ref=f13e1145]:
+        - text: 네이버파이낸셜(주)이 제공하는 금융 정보는
+        - link "콘텐츠 제공업체" [ref=f13e1146] [cursor=pointer]:
+          - /url: javascript:;
+        - text: 로부터 받는 투자 참고사항이며, 오류가 발생하거나 지연될 수 있습니다. 네이버파이낸셜(주)과 콘텐츠 제공업체는 제공된 정보에 의한 투자 결과에 법적인 책임을 지지 않습니다. 게시된 정보는 무단으로 배포할 수 없습니다.
+      - paragraph [ref=f13e1147]: 국내 증시 기본 데이터는 한국거래소(KRX)에서 제공합니다.
+      - link [ref=f13e1149] [cursor=pointer]:
+        - /url: https://www.naverfincorp.com/
+        - img "NAVER FINANCIAL" [ref=f13e1150]
